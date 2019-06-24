@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Liquidaciones_Tareas_FftredBPB",{extend:"Ext.data.Store",model:"Siace.model.bud.Liquidacion_Tarea_FftredBPB",pageSize:500,proxy:{type:"general",url:"php/budget_liquidaciones_tareas_fftred_json_records.php"}});

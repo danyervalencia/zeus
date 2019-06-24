@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Actividades_TareasBAB",{extend:"Ext.data.Store",model:"Siace.model.bud.Actividad_TareaBAB",proxy:{type:"general",url:"php/budget_actividades_tareas_json_records.php"}});

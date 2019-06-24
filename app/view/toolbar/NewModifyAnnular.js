@@ -1,0 +1,3 @@
+Ext.define('Siace.view.toolbar.NewModifyAnnular', { extend: 'Ext.toolbar.Toolbar', alias: 'widget.newmodifyannular', flex: 1,
+	items: [{ xtype: 'button', itemId: 'btnNew', text: translations.nuevo, iconCls: 'icon_New', height: 23 }, { xtype: 'button', itemId: 'btnModify', text: 'Modificar', iconCls: 'icon_0002', disabled: true }, { xtype: 'button', itemId: 'btn0010', text: 'Anular', iconCls: 'icon_0010', disabled: true }]
+});

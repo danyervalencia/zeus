@@ -1,0 +1,3 @@
+Ext.define("Siace.view.pub.ComplementariosE",{extend:"Siace.view.WindowEdit",alias:"widget.pub_comple",width: 500,items:[
+{xtype:"form",border:true,bodyPadding:8,defaults:{labelWidth:70,width:"100%"},layout:{type:"vbox"},width:"100%",items:[{xtype:"comp_txt",itemId:"compl_nombre",name:"compl_nombre",allowBlank:false,fieldLabel:"Nombre",maxLength:80},{xtype:"comp_txt",itemId:"compl_abrev",name:"compl_abrev",fieldLabel:"Abrev.",maxLength:10,width:150},{xtype:"comp_txtarea",itemId:"compl_observ",name:"compl_observ",fieldLabel:"Comentario"}]}
+]});

@@ -1,0 +1,1 @@
+Ext.define('Siace.store.bud.GenericasCbo',{extend:'Ext.data.Store',model:'Siace.model.bud.GenericaCbo',proxy:{type:'general',url:'php/budget_genericas_json_records.php'}});

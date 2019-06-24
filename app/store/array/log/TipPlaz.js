@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.log.TipPlaz",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"tipplaz_id",type:"int"},{name:"tipplaz_nombre",type:"string"},{name:"tipplaz_abrev",type:"string"}],data:[["5012","Días Calendario","DC"],["5019","Días Efectivos","DE"],["5014","Horas Laboradas","HL"],["5013","Producto Entregado","PE"]]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.rrhh.CargosCbo",{extend:"Ext.data.Store",model:"Siace.model.rrhh.CargoCbo",proxy:{type:"general",url:"php/rrhh_cargos_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.Cuadro_Necesidades_DetBAB',{extend:'Ext.data.Store',model:'Siace.model.log.Cuadro_Necesidad_DetBAB',pageSize:500,proxy:{type:'general',url:'php/logistics_cuadro_necesidades_det_json_records.php'}});

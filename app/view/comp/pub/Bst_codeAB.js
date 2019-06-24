@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Bst_codeAB",{extend:"Siace.view.comp.CboTop",alias:"widget.comppub_bst_codeab",store:"array.BstAB",itemId:"bst_id",valueField:"bst_id",displayField:"bst_code",tpl:"<tpl for='.'><div class='x-boundlist-item'>{bst_code}&nbsp;</div></tpl>",fieldLabel:"&nbsp;Tipo",listConfig:{cls:"item00001",minWidth:40},width:40});

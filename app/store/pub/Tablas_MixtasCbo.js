@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Tablas_MixtasCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.Tabla_MixtaCbo",pageSize:500,proxy:{type:"general",url:"php/logistics_fases_accesos_usuarios_accesos_json_records.php"}});

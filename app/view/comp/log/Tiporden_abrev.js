@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.log.Tiporden_abrev",{extend:"Siace.view.comp.CboTop",alias:"widget.complog_tiporden_abrev",itemId:"tiporden_id",valueField:"tiporden_id",displayField:"tiporden_abrev",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tiporden_abrev}&nbsp;</div></tpl>",fieldLabel:"&nbsp;Tipo",listConfig:{cls:"item00001",minWidth:60},width:60});

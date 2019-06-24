@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.ColorCbo',{extend:'Ext.data.Model',fields:[{name:'colr_id',type:'int'},{name:'colr_nombre',type:'string'}]});

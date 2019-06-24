@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.LocalesCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.LocalCbo",proxy:{type:"general",url:"php/public_locales_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Pag",{extend:"Ext.toolbar.Paging",alias:"widget.comp_pag",displayInfo:true,displayMsg:trnslt.pag_msg,dock:"bottom",emptyMsg:trnslt.pag_empty});

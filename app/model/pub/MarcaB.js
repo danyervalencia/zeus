@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.MarcaB",{extend:"Ext.data.Model",fields:[{name:"marc_key",type:"string"},{name:"marc_nombre",type:"string"},{name:"marc_abrev",type:"string"},{name:"marc_estado",type:"int"}]});

@@ -1,0 +1,1 @@
+Ext.define('Siace.model.log.Tipo_FichaCbo',{extend:'Ext.data.Model',fields:[{name:'tipfich_id',type:'int'},{name:'tipfich_nombre',type:'string'},{name:'tipfich_abrev',type:'string'},{name:'tablex',type:'int'},{name:'doc_id',type:'int'}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Bien_Serv_Especifica_DetBalance",{extend:"Ext.data.Model",fields:[{name:"tareafte_id",type:"int"},{name:"espedet_id",type:"int"},{name:"espedet_codename",type:"string"},{name:"tareafte_monto_saldo",type:"float"}]});

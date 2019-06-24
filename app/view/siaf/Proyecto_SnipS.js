@@ -1,0 +1,4 @@
+Ext.define("Siace.view.siaf.Proyecto_SnipS",{extend:"Siace.view.WindowSearch",alias:"widget.siaf_proysnips",width:600,items:[{xtype:"form",bodyPadding:0,frame:false,items:[
+{xtype:"container",layout:"hbox",margin:"0 0 5 0",items:[{xtype:"comp_txttop",itemId:"proysnip_code",enableKeyEvents:true,fieldLabel:"&nbsp;SNIP",maxLength:7,width:70},{xtype:"comp_txttop",itemId:"proysnip_nombre",enableKeyEvents:true,fieldLabel:"&nbsp;Descripción",maxLength:30,width:220}]},
+{xtype:"comp_grid",itemId:"grdSPS",height:320,columns:[{dataIndex:"proysnip_code",text:"SNIP",width:70},{dataIndex:"proysnip_nombre",text:"Descripción",width:1000}]},{xtype:"comp_pag",itemId:"pagSPS"}
+]}]});

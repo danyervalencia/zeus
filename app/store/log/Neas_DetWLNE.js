@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Neas_DetWLNE",{extend:"Ext.data.Store",model:"Siace.model.log.Nea_DetWLNE",proxy:{type:"general",url:"php/logistics_neas_det_json_records.php"}});

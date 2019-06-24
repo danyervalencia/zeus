@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tarea_Usuario_AccesoB",{extend:"Ext.data.Model",fields:[{name:"tareausuracce_key",type:"string"},{name:"tareausuracce_estado",type:"int"},{name:"year_id",type:"int"},{name:"tarea_nombre",type:"string"},{name:"tarea_codigo",type:"string"},{name:"tipgast_code",type:"string"},{name:"secfunc_nombre",type:"string"}]});

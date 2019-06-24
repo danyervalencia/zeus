@@ -1,0 +1,3 @@
+Ext.define("Siace.controller.pub.IndivBIC",{extend:"Ext.app.Controller",
+pib:function(grid,r,e){this.tip=Ext.create("Ext.tip.ToolTip",{closeAction:"destroy",delegate:grid.itemSelector,renderTo:Ext.getBody(),target:e.target,trackMouse:true,listeners:{beforeshow:function updateTipBody(tip){tip.update("Please wait...");Ext.Ajax.request({method:"POST",url:"php/public_individuos_json_records.php",params:{xxIndiv_key:r.data.indiv_key,xxType_record:"foto"},success:function(resp){var _res=fext_DJ("",resp);if(_res.success){var _imag="<div><img width=120 height=170 src='"+"attach/public_individuos_foto_"+r.data.indiv_key+"_"+_res.data[0].indiv_foto+"'/></div>";tip.update(_imag);}},});}}});}
+});

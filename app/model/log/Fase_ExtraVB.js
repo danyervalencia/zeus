@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Fase_ExtraVB",{extend:"Ext.data.Model",fields:[{name:"faseextr_type",type:"int",convert:null},{name:"fase_key",type:"string"},{name:"extr_id",type:"int"}]});

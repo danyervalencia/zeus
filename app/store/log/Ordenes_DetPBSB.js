@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.Ordenes_DetPBSB',{extend:'Ext.data.Store',model:'Siace.model.log.Orden_DetPBSB',pageSize:500,proxy:{type:'general',url:'php/logistics_ordenes_det_json_records.php'}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Donaciones_DetLNS",{extend:"Ext.data.Store",model:"Siace.model.log.Donacion_DetLNS",pageSize:2000,proxy:{type:"general",url:"php/logistics_donaciones_det_json_records.php"}});

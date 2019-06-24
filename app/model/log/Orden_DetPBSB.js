@@ -1,0 +1,3 @@
+Ext.define('Siace.model.log.Orden_DetPBSB',{extend:'Ext.data.Model',fields:[{name:'ordendet_item',type:'int'},{name:'ordendet_detalle',type:'string'},{name:'ordendet_cantid',type:'float'},{name:'ordendet_preuni',type:'float'},{name:'ordendet_pretot',type:'float'},{name:'orden_key',type:'string'},{name:'orden_flga',type:'string'},{name:'orden_fecha',type:'date',dateFormat:'Y-m-d'},{name:'expe_nro',type:'int',convert:null},{name:'orden_documento',type:'string'},
+{name:'area_abrev',type:'string'},{name:'tarea_codigo',type:'string'},{name:'fftr_codigo',type:'string'},{name:'pers_key',type:'string'},{name:'pers_nombre',type:'string'},{name:'espedet_codigo',type:'string'}
+]});

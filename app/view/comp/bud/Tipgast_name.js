@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Tipgast_name",{extend:"Siace.view.comp.Cbo",alias:"widget.compbud_tipgast_name",itemId:"tipgast_id",valueField:"tabgen_id",displayField:"tabgen_nombre",tpl:"<tpl for='.''><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Tipo Gasto",labelWidth:60,width:190});

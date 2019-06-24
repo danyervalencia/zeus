@@ -1,0 +1,1 @@
+Ext.define("Siace.view.TabB1",{extend:"Ext.panel.Panel",alias:"widget.tabb1",border:false,bodyBorder:false,height:"100%",layout:{type:"fit"}});

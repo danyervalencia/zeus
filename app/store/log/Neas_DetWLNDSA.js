@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.Neas_DetWLNDSA',{extend:'Ext.data.Store',model:'Siace.model.log.Nea_DetWLNDSA',pageSize:500,proxy:{type:'general',url:'php/logistics_neas_det_json_records_search_add.php'}});

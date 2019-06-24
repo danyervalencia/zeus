@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.ExpedientesB",{extend:"Ext.data.Store",model:"Siace.model.siaf.ExpedienteB",pageSize:500,proxy:{type:"general",url:"php/siaf_expedientes_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.Buena_Pro_Det_Tareas_Fftred',{extend:'Ext.data.Store',model:'Siace.model.log.Buena_Pro_Det_Tarea_Fftred',proxy:{type:'general',url:'php/logistics_buena_pro_det_tareas_fftred_json_records.php'}});

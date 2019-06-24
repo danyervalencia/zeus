@@ -1,0 +1,1 @@
+Ext.define("Siace.store.tre.EgresosB",{extend:"Ext.data.Store",model:"Siace.model.tre.EgresoB",pageSize:500,proxy:{type:"general",url:"php/treasury_egresos_json_records.php"}});

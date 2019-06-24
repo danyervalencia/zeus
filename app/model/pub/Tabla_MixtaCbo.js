@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Tabla_MixtaCbo",{extend:"Ext.data.Model",fields:[{name:"_key",type:"string"},{name:"_nombre",type:"string"},{name:"_abrev",type:"string"}]});

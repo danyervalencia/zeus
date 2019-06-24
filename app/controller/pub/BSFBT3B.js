@@ -1,0 +1,1 @@
+Ext.define("Siace.controller.pub.BSFBT3B",{extend:"Ext.app.Controller",pbsfb:function(btn){var _t=btn.up("#tabLFR");var _TE=fext_btnTE(btn);if(_TE=="Pri"){fext_C("log.Fichas_Registros").lfr_Printer({comp:_t,tit:1});}else{fext_CC("log.Fichas_Registros").lfr_View({comp:_t,TE:_TE,grd:"grdLFR",oi:_TE,nuk:"NoT"});}}});

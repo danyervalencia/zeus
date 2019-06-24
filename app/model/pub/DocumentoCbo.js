@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.DocumentoCbo",{extend:"Ext.data.Model",fields:[{name:"doc_id",type:"int"},{name:"doc_nombre",type:"string"},{name:"doc_abrev",type:"string"}]});

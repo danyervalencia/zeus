@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.ValeSWLVE",{extend:"Ext.data.Model",fields:[{name:"tablex_documento",type:"string"},{name:"tablex_key",type:"string"}]});

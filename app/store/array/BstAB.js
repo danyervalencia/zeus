@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.BstAB",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"bst_id",type:"int"},{name:"bst_nombre",type:"string"},{name:"bst_code",type:"string"}],data:[["0",","],["1","Bienes","B"],["2","Servicios","S"]]});

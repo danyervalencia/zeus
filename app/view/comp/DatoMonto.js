@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.DatoMonto',{extend:'Siace.view.comp.Dato',alias:'widget.comp_datomonto',fieldCls:'df00106',fieldLabel:'Importe',labelClsExtra:'lbl00101',padding:'-4 0 -2 0',renderer:Ext.util.Format.numberRenderer('000,000,000.00'),submitValue:false});

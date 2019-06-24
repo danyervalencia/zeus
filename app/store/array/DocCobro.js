@@ -1,0 +1,1 @@
+Ext.define('Siace.store.array.DocCobro',{extend:'Ext.data.ArrayStore',autoLoad:true,fields:[{name:'doc_id',type:'int'},{name:'doc_nombre',type:'string'},{name:'doc_abrev',type:'string'}],data:[['511','Recibode Ingreso','RI'],['515','Recibode Ejecución','RE']]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Txt",{extend:"Ext.form.field.Text",alias:"widget.comp_txt",disabledCls:"myDisabledClass",enableKeyEvents:true,enforceMaxLength:true,fieldCls:"txt00001",labelClsExtra:"lbl00001",width:100});

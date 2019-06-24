@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Vale_AtendidoE",{extend:"Ext.data.Model",fields:[{name:"valatend_key",type:"string"},{name:"valatend_fecha",type:"date",dateFormat:"Y-m-d"},{name:"valatend_hora",type:"string"},{name:"valatend_odometro",type:"float"},{name:"valatend_observ",type:"string"},{name:"val_key",type:"string"}]});

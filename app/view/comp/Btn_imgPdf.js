@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Btn_imgPdf",{extend:"Ext.button.Button",alias:"widget.comp_btn_imgpdf",iconCls:"icon_pdf_90",margin:"0 4 0 0"});

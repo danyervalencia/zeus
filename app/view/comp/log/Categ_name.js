@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.log.Categ_name",{extend:"Siace.view.comp.Cbo",alias:"widget.complog_categname",itemId:"categ_id",valueField:"tabgen_id",displayField:"tabgen_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Categoría",labelWidth:60,width:180});

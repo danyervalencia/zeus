@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Fuefin_codename",{extend:"Siace.view.comp.Cbo",alias:"widget.compbud_fuefin_codename",itemId:"fuefin_id",valueField:"fuefin_id",displayField:"fuefin_codename",tpl:"<tpl for='.'><div class='x-boundlist-item'>{fuefin_codename}&nbsp;</div></tpl>",fieldLabel:"Rubro",width:"100%"});

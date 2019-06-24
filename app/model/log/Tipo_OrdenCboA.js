@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Tipo_OrdenCboA",{extend:"Ext.data.Model",idProperty:"tiporden_id",fields:[{name:"tiporden_id",type:"int"},{name:"tiporden_abrev",type:"string"}]});

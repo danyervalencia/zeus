@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Usuario_AccesoLogin',{extend:'Ext.data.Model',fields:[{name:'usuracce_key',type:'string'},{name:'uniejearea_abrev',type:'string'}]});

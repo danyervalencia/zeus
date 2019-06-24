@@ -1,0 +1,4 @@
+Ext.define("Siace.controller.pub.BSBT4",{extend:"Ext.app.Controller",
+pbsb_btn:function(btn){var _ii=fext_oii(btn);var _t=btn.up("#tabLO");if(_ii=="btnPrinter"){fext_CC("log.Ordenes").lo_Printer({comp:_t,grd:"grdLOD"});}else if(_ii=="btnFases"){fext_CC("log.Ordenes").lo_Fases({comp:_t,grd:"grdLOD"});}else if(_ii=="btnProvider"){fext_CC("pub.Personas").pp_View({comp:_t,TE:3,grd:"grdLOD",oi:3});}},
+pbsb_sc:function(mod,r){if(r.length==1){var _t=mod.view.up("#tabLO");var _fg=r[0].data.orden_flga==98?true:"";var _en=r[0].data.expe_nro;fext_SDO(_t,"btnPrinter","",8,_fg);fext_SDO(_t,"btnFases","",5029,_fg||_en*1<=0?true:"");fext_SDO(_t,"btnProvider","",5020,_fg);}}
+});

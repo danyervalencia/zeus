@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Fichas_DetBrow",{extend:"Ext.data.Store",model:"Siace.model.log.Ficha_DetBrow",pageSize:500,proxy:{type:"general",url:"php/logistics_fichas_det_json_records.php"}});

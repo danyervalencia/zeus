@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Individuo_FonoPIB",{extend:"Ext.data.Model",fields:[{name:"indivfono_key",type:"string"},{name:"indivfono_nro",type:"string"},{name:"indivfono_estado",type:"int"},{name:"tipfono_nombre",type:"string"},{name:"compfono_nombre",type:"string"}]});

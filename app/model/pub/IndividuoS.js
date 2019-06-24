@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.IndividuoS",{extend:"Ext.data.Model",fields:[{name:"indiv_key",type:"string"},{name:"indiv_dni",type:"string"},{name:"indiv_apenom",type:"string"},{name:"tipdocident_abrev",type:"string"}]});

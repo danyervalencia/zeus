@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Tipos_Pago',{extend:'Ext.data.Store',model:'Siace.model.pub.Tipo_Pago',proxy:{type:'general',url:'php/public_tipos_pago_json_records.php'}});

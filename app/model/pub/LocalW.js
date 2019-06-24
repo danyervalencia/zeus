@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.LocalWin",{extend:"Ext.data.Model",fields:[{name:"loc_nombre",type:"string"},{name:"loc_domicilio",type:"string"},{name:"dpto_codename",type:"string"},{name:"prvn_codename",type:"string"},{name:"dstt_codename",type:"string"}]});

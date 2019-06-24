@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.ProyectoB",{extend:"Ext.data.Model",fields:[{name:"proy_key",type:"string"},{name:"proy_code",type:"string"},{name:"proy_nombre",type:"string"},{name:"actproy_code",type:"string"},{name:"prog_codigo",type:"string"}]});

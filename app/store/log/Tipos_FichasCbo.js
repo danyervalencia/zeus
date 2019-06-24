@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.Tipos_FichasCbo',{extend:'Ext.data.Store',model:'Siace.model.log.Tipo_FichaCbo',proxy:{type:'general',url:'php/public_tipos_pago_json_records.php'}});

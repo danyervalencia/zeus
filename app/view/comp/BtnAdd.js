@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnAdd",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnAdd",itemId:"btnAdd",disabled:true,iconCls:"icon_Add",text:"Agregar"});

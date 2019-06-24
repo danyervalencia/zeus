@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.LiquidacionesBPB",{extend:"Ext.data.Store",model:"Siace.model.bud.LiquidacionBPB",pageSize:500,proxy:{type:"general",url:"php/budget_liquidaciones_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Pedido_TramiteLPSB",{extend:"Ext.data.Model",fields:[{name:"pedtram_key",type:"string"},{name:"pedtram_datetime",type:"string"},{name:"pedtram_feho",type:"string"},{name:"pedtram_documento",type:"string"},{name:"tiptram_abrev",type:"string"},{name:"area_abrev",type:"string"},{name:"usur_login",type:"string"},{name:"rcol",type:"string"}]});

@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.YearCbo',{extend:'Ext.data.Model',fields:[{name:'year_id',type:'int'},{name:'year_nombre',type:'string'},{name:'year_code',type:'string'}]});

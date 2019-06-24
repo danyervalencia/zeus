@@ -1,0 +1,1 @@
+Ext.define('Siace.view.toolbar.OkCancelExit',{extend:'Ext.toolbar.Toolbar',alias:'widget.okcancelexit',dock:'bottom',flex:1,layout:{type:'hbox',pack:'end'},ui:'footer',items:[{xtype:'comp_btnAccept'},{xtype:'comp_btnCancel'},{xtype:'comp_btnExit'}]});

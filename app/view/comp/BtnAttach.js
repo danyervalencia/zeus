@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnAttach",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnAttach",disabled:true,itemId:"btnAttach",iconCls:"icon_Attach",text:"Adjuntar Archivo"});

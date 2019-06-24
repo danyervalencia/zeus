@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.PlanillasB",{extend:"Ext.data.Store",model:"Siace.model.log.PlanillaB",pageSize:500,proxy:{type:"general",url:"php/logistics_planillas_json_records.php"}});

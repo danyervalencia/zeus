@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnAnnular",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnAnnular",itemId:"btnAnnular",disabled:true,iconCls:"icon_Annular",text:"Anular"});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.LocalB",{extend:"Ext.data.Model",fields:[{name:"loc_key",type:"string"},{name:"loc_nombre",type:"string"},{name:"loc_abrev",type:"string"},{name:"loc_code",type:"string"},{name:"loc_domicilio",type:"string"},{name:"loc_estado",type:"int"},{name:"loc_ubigeo",type:"string"}]});

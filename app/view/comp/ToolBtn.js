@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.ToolBtn",{extend:"Ext.toolbar.Toolbar",alias:"widget.comp_toolbtn",autoScroll:true,dock:"bottom",layout:"hbox",ui:"footer"});

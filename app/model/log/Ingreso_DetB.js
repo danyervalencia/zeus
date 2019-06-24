@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Ingreso_DetB",{extend:"Ext.data.Model",fields:[{name:"ingdet_key",type:"string"},{name:"ingdet_item",type:"int"},{name:"ingdet_cantid",type:"float"},{name:"ingdet_preuni",type:"float"},{name:"ingdet_pretot",type:"float"},{name:"bs_nombre",type:"string"},{name:"bs_codigo",type:"string"},{name:"unimed_nombre",type:"string"}]});

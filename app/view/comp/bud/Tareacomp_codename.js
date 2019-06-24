@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Tareacomp_codename",{extend:"Siace.view.comp.Cbo",alias:"widget.compbud_tareacomp_codename",itemId:"tareacomp_key",valueField:"tareacomp_key",displayField:"tareacomp_codename",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tareacomp_codename}&nbsp;</div></tpl>",fieldLabel:"Comp.",width:"100%"});

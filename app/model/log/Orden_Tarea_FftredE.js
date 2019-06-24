@@ -1,0 +1,2 @@
+Ext.define("Siace.model.log.Orden_Tarea_FftredE",{extend:"Ext.data.Model",fields:[{name:"ordentareafte_key",type:"string"},{name:"ordentareafte_item",type:"int"},{name:"ordentareafte_monto",type:"float"},{name:"ordentareafte_percep",type:"float",convert:null},
+{name:"tareafte_key",type:"string"},{name:"tarea_codigo",type:"string"},{name:"tarea_nombre",type:"string"},{name:"fftr_codigo",type:"string"},{name:"espedet_id",type:"string"},{name:"espedet_codigo",type:"string"},{name:"espedet_nombre",type:"string"}]});

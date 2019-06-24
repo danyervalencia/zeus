@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Compra_Det_Tarea_FftredB",{extend:"Ext.data.Model",fields:[{name:"item",type:"int"},{name:"pretot",type:"float"},{name:"area_nombre",type:"string"},{name:"tarea_codigo",type:"string"},{name:"fftr_codigo",type:"string"},{name:"espedet_codigo",type:"string"},{name:"espedet_nombre",type:"string"}]});

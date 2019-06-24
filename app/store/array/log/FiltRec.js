@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.log.FiltRec",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"fr_id",type:"int"},{name:"fr_nombre",type:"string"}],data:[["0","Todos"],["1","Solo Usuario"],["2","Solo Unidad Orgánica"]]});

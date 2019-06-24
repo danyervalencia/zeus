@@ -1,0 +1,4 @@
+Ext.define('Siace.model.log.Buena_Pro_DetCertifica',{extend:'Ext.data.Model',fields:[
+{name:'bpdet_key',type:'string'},{name:'bpdet_item',type:'int'},{name:'bpdet_cantid',type:'float'},{name:'bpdet_preuni',type:'float'},{name:'bpdet_pretot',type:'float'},{name:'espedet_id',type:'int'},
+{name:'cotidet_marca',type:'string'},{name:'cotidet_modelo',type:'string'},{name:'peddet_key',type:'string'},{name:'bs_key',type:'string'},{name:'bs_nombre',type:'string'},{name:'bs_codigo',type:'string'},{name:'unimed_nombre',type:'string'},{name:'espedet_codigo',type:'string'},{name:'espedet_nombre',type:'string'}
+]});

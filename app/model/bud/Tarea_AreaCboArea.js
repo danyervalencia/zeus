@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tarea_AreaCboArea",{extend:"Ext.data.Model",fields:[{name:"tareaarea_key",type:"string"},{name:"area_key",type:"string"},{name:"area_nombre",type:"string"},{name:"area_abrev",type:"string"}]});

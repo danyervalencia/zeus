@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Tabla_GeneralCbo',{extend:'Ext.data.Model',idProperty:'tabgen_id',fields:[{name:'tabgen_id',type:'int'},{name:'tabgen_nombre',type:'string'},{name:'tabgen_abrev',type:'string'},{name:'tabgen_code',type:'string'},{name:'tabgen_codename',type:'string'}]});

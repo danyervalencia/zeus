@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.NroTop",{extend:"Siace.view.comp.TxtTop",alias:"widget.comp_nrotop",fieldLabel:"&nbsp;Número",margin:"0 4 0 0",maxLength:6,vtype:"onlyNumeric",width:60});

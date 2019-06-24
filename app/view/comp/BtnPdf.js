@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnPdf',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnPdf',itemId:'btnPdf',iconCls:'icon_Pdf',text:'PDF'});

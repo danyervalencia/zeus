@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.IndividuosB",{extend:"Ext.data.Store",model:"Siace.model.pub.IndividuoB",pageSize:500,proxy:{type:"general",url:"php/public_individuos_json_records.php"}});

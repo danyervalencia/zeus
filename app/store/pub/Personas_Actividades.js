@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Personas_Actividades',{extend:'Ext.data.Store',model:'Siace.model.pub.Persona_Actividad',proxy:{type:'general',url:'php/public_personas_actividades_json_records.php'}});

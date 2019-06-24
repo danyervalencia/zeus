@@ -1,0 +1,1 @@
+Ext.define('Siace.view.toolbar.SaveUndoExit',{extend:'Ext.toolbar.Toolbar',alias:'widget.saveundoexit',dock:'bottom',flex:1,layout:{pack:'end',type:'hbox'},ui:'footer',items:[{xtype:'comp_btnAnnular',hidden:true},{xtype:'tbfill'},{xtype:'comp_btnSave'},{xtype:'comp_btnUndo'},{xtype:'comp_btnExit'}]});

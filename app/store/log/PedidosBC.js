@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.PedidosBC",{extend:"Ext.data.Store",model:"Siace.model.log.PedidoBC",pageSize:500,proxy:{type:"general",url:"php/logistics_pedidos_json_records.php"}});

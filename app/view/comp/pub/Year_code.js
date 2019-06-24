@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Year_code",{extend:"Siace.view.comp.CboTop",alias:"widget.comppub_year_code",itemId:"year_id",store:"array.Years",valueField:"year_id",displayField:"year_code",tpl:"<tpl for='.'><div class='x-boundlist-item'>{year_code}&nbsp;</div></tpl>",fieldLabel:"&nbsp;Año",listConfig:{cls:"item00001",minWidth:60},value:0,width:60});

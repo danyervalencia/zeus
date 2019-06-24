@@ -1,0 +1,1 @@
+Ext.define("Siace.view.TpnR1",{extend:"Ext.tab.Panel",alias:"widget.tpnr1",itemId:"tpn",flex:1,height:"100%",plain:true,region:"center"});

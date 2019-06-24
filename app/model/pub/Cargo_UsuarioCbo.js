@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Cargo_UsuarioCbo',{extend:'Ext.data.Model',fields:[{name:'cargusur_id',type:'int'},{name:'cargusur_nombre',type:'string'},{name:'cargusur_abrev',type:'string'}]});

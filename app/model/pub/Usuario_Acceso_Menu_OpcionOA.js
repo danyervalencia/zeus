@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Usuario_Acceso_Menu_OpcionOA",{extend:"Ext.data.Model",fields:[{name:"opc_id",type:"int",convert:null}]});

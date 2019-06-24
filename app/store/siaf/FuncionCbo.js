@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.FuncionCbo",{extend:"Ext.data.Store",model:"Siace.model.siaf.FuncionCbo",proxy:{type:"general",url:"php/siaf_funcion_json_records.php"}});

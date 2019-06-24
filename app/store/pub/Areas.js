@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Areas",{extend:"Ext.data.Store",model:"Siace.model.pub.Area",proxy:{type:"general",url:"php/public_areas_json_records.php"}});

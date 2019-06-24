@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Destinos_SalidasCbo",{extend:"Ext.data.Store",model:"Siace.model.log.Destino_SalidaCbo",proxy:{type:"general",url:"php/logistics_destinos_salidas_json_records.php"}});

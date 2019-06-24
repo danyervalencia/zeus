@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.CboRep",{extend:"Siace.view.comp.Cbo",alias:"widget.comp_cborep",itemId:"rep_id",valueField:"rep_code",displayField:"rep_nombre",editable:true,fieldLabel:"Reporte",flex:1,labelWidth:70,margin:"4 4 5 0"});

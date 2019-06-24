@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.MetasCbo",{extend:"Ext.data.Store",model:"Siace.model.bud.MetaCbo",pageSize:1000,proxy:{type:"general",url:"php/budget_metas_json_records.php"}});

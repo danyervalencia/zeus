@@ -1,0 +1,1 @@
+Ext.define('Siace.model.tre.Egreso_ProcedenciaTEB',{extend:'Ext.data.Model',fields:[{name:'tablex_key',type:'string'},{name:'tablex_fecha',type:'date',dateFormat:'Y-m-d'},{name:'tablex_monto',type:'float'},{name:'expe_nro',type:'int',convert:null},{name:'tablex_documento',type:'string'},{name:'tablex',type:'int',convert:null}]});

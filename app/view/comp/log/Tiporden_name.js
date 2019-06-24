@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.log.Tiporden_name",{extend:"Siace.view.comp.Cbo",alias:"widget.complog_tiporden_name",itemId:"tiporden_id",valueField:"tiporden_id",displayField:"tiporden_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tiporden_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Tipo Serv.",width:"100%"});

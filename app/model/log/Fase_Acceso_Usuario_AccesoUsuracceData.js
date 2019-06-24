@@ -1,0 +1,1 @@
+Ext.define('Siace.model.log.Fase_Acceso_Usuario_AccesoUsuracceData',{extend:'Ext.data.Model',fields:[{name:'usuracce_key',type:'string'},{name:'indiv_dni',type:'string'},{name:'indiv_apenom',type:'string'}]});

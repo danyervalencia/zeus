@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Doc_abrevAB",{extend:"Siace.view.comp.CboTop",alias:"widget.comppub_doc_abrevab",itemId:"doc_id",valueField:"doc_id",displayField:"doc_abrev",tpl:"<tpl for='.'><div class='x-boundlist-item'>{doc_abrev}&nbsp;</div></tpl>",fieldLabel:"&nbsp;Doc.",listConfig:{cls:"item00001",minWidth:45},value:0,width:45});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.ValorizacionesB",{extend:"Ext.data.Store",model:"Siace.model.log.ValorizacionB",pageSize:500,proxy:{type:"general",url:"php/logistics_valorizaciones_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define('Siace.model.log.ModificacionWinLBPBPO',{extend:'Ext.data.Model',fields:[{name:'modif_fecha',type:'date',dateFormat:'Y-m-d'},{name:'modif_documento',type:'string'},{name:'modif_monto',type:'float'}]});

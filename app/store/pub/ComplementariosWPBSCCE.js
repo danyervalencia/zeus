@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.ComplementariosWPBSCCE',{extend:'Ext.data.Store',model:'Siace.model.pub.ComplementarioWPBSCCE',proxy:{type:'general',url:'php/public_complementarios_json_records.php'}});

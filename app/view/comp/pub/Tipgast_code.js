@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.Tipgast_code',{extend:'Siace.view.comp.CboTop',alias:'widget.comp_tipgast_code',itemId:'tipgast_id',valueField:'tipgast_id',displayField:'tipgast_code',fieldLabel:'&nbsp;T.G.',listConfig:{cls:'item00001',minWidth:40},tpl:'<tpl for="."><div class="x-boundlist-item">{tipgast_code}&nbsp;</div></tpl>',width:40});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Cotizaciones_DetE",{extend:"Ext.data.Store",model:"Siace.model.log.Cotizacion_DetE",pageSize:500,proxy:{type:"general",url:"php/logistics_cotizaciones_det_json_records.php"}});

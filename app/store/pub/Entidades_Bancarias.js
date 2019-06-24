@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Entidades_Bancarias',{extend:'Ext.data.Store',model:'Siace.model.pub.Entidad_Bancaria',proxy:{type:'general',url:'php/public_entidades_bancarias_json_records.php'}});

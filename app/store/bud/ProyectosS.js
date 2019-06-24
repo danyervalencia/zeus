@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.ProyectosS",{extend:"Ext.data.Store",model:"Siace.model.bud.ProyectoS",pageSize:500,proxy:{type:"general",url:"php/budget_proyectos_json_records.php"}});

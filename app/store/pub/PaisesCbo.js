@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.PaisesCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.PaisCbo",proxy:{type:"general",url:"php/public_paises_json_records.php"}});

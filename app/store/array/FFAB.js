@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.FFAB",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"ff",type:"string"},{name:"code",type:"string"}],data:[["",""],["=","="],["<=","<="],[">=",">="]]});

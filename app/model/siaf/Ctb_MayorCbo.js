@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.Ctb_MayorCbo",{extend:"Ext.data.Model",fields:[{name:"may_code",type:"string"},{name:"may_nombre",type:"string"},{name:"may_codename",type:"string"}]});

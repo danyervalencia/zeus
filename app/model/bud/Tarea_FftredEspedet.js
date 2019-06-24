@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tarea_FftredEspedet",{extend:"Ext.data.Model",fields:[{name:"tareafte_key",type:"string"},{name:"espedet_id",type:"int"},{name:"espedet_code",type:"string"},{name:"espedet_nombre",type:"string"},{name:"espedet_codigo",type:"string"},{name:"espedet_codename",type:"string"},{name:"tareafte_saldo",type:"float"}]});

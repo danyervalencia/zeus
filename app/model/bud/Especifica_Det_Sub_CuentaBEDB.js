@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Especifica_Det_Sub_CuentaBEDB",{extend:"Ext.data.Model",fields:[{name:"espedetsubcta_id",type:"int"},{name:"espedetsubcta_estado",type:"int"},{name:"year_id",type:"int"},{name:"may_code",type:"string"},{name:"subcta_code",type:"string"},{name:"subcta_nombre",type:"string"}]});

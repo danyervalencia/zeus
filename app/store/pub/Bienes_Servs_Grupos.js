@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Bienes_Servs_Grupos',{extend:'Ext.data.Store',model:'Siace.model.pub.Bien_Serv_Grupo',proxy:{type:'general',url:'php/public_bienes_servs_grupos_json_records.php'}});

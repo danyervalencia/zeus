@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Usuarios_Accesos_TablexCbo5040",{extend:"Ext.data.Store",model:"Siace.model.pub.Usuario_Acceso_TablexCbo5040",proxy:{type:"general",url:"php/public_usuarios_accesos_tablex_json_records.php"}});

@@ -1,0 +1,36 @@
+Ext.define('Siace.model.operations.Produccion', {
+	extend: 'Ext.data.Model',
+	idProperty: 'prdcc_id',
+
+	fields: [
+		{ name: 'prdcc_id', type: 'int' },
+		{ name: 'prdcc_key', type: 'string' },
+		{ name: 'prdcc_flga', type: 'string' },
+		{ name: 'alma_id', type: 'int' },
+		{ name: 'doc_id', type: 'int' },
+		{ name: 'prdcc_serie' },
+		{ name: 'prdcc_aux', type: 'int' },
+		{ name: 'prdcc_nro' },
+		{ name: 'prdcc_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'mone_id', type: 'int' },
+		{ name: 'prdcc_monto' },
+		{ name: 'prdcc_observ' },
+		{ name: 'prdcc_estado', type: 'string' },
+		{ name: 'fase_id', type: 'int' },
+		{ name: 'prdccfase_fechaing', type: 'date' },
+		{ name: 'prdccfase_usur_id', type: 'int' },
+		{ name: 'prdccfase_observ', type: 'string' },
+		{ name: 'prdcc_documento', type: 'string' },
+		{ name: 'alma_key' },
+		{ name: 'alma_code', type: 'string' },
+		{ name: 'alma_nombre', type: 'string' },
+		{ name: 'alma_abrev', type: 'string' },
+		{ name: 'pers_key', type: 'string' },
+		{ name: 'pers_ruc', type: 'string' },
+		{ name: 'indus_key', type: 'string' },
+		{ name: 'indus_documento', type: 'string' },
+		{ name: 'mone_abrev', type: 'string' },
+		{ name: 'usur_login', type: 'string' },
+		{ name: 'prdcc_productos', type: 'string' }
+	]
+});

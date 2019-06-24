@@ -1,0 +1,1 @@
+Ext.define('Siace.store.rrhh.PlanillasBrowse',{extend:'Ext.data.Store',model:'Siace.model.rrhh.PlanillaBrowse',pageSize:500,proxy:{type:'general',url:'php/rrhh_planillas_json_records.php'}});

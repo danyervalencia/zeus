@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnUndo',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnUndo',itemId:'btnUndo',iconCls:'icon_Undo',text:'Deshacer'});

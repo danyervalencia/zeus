@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.AreaE",{extend:"Ext.data.Model",fields:[{name:"area_key",type:"string"},{name:"area_nombre",type:"string"},{name:"area_abrev",type:"string"},{name:"area_siglas",type:"string"},{name:"area_observ",type:"string"},{name:"area_estado",type:"int"},{name:"unieje_key",type:"string"},{name:"parent_key",type:"string"}]});

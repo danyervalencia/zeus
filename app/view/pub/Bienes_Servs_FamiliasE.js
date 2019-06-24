@@ -1,0 +1,9 @@
+Ext.define("Siace.view.pub.Bienes_Servs_FamiliasE",{extend:"Siace.view.WinE",alias:"widget.pub_bsfe",width:600,items:[{xtype:"form",bodyPadding:8,border:true,defaults:{labelWidth:60},width:"100%",items:[
+{xtype:"container",layout:"hbox",width:"100%",items:[{xtype:"comp_cbo",itemId:"bst_id",name:"bst_id",store:"array.Bst",valueField:"bst_id",displayField:"bst_code",fieldLabel:"Tipo/Grupo",labelWidth:60,listConfig:{cls:"item00001",minWidth:40},margin:"0 4 5 0",width:100},{xtype:"comp_cbo",itemId:"bsg_id",name:"_bsg_id",valueField:"bsg_id",displayField:"bsg_codename",tpl:"<tpl for='.'><div class='x-boundlist-item'>{bsg_codename}&nbsp;</div></tpl>",allowBlank:false,flex:1}]},
+{xtype:"comp_cbo",itemId:"bsc_id",name:"_bsc_id",valueField:"bsc_id",displayField:"bsc_codename",tpl:"<tpl for='.'><div class='x-boundlist-item'>{bsc_codename}&nbsp;</div></tpl>",fieldLabel:"Clase",allowBlank:false,anchor:"100%"},
+{xtype:"comp_txt",itemId:"bsf_code",name:"bsf_code",fieldLabel:"Familia",labelWidth:60,maxLength:4,vtype:"onlyNumeric",width:110},
+{xtype:"comp_txt",itemId:"bsf_nombre",name:"bsf_nombre",fieldLabel:"Nombre",allowBlank:false,maxLength:100,anchor:"100%"},
+{xtype:"comp_txt",itemId:"bsf_abrev",name:"bsf_abrev",fieldLabel:"Abreviado",maxLength:30,width:200},
+{xtype:"comp_cbo",itemId:"tipbsf_id",name:"tipbsf_id",valueField:"tabgen_id",displayField:"tabgen_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Tipo",width:200},
+{xtype:"comp_txtarea",itemId:"bsf_observ",name:"bsf_observ",fieldLabel:"Comentario",anchor:"100%"}
+]}]});

@@ -1,0 +1,31 @@
+Ext.define('Siace.model.treasury.Entidad_Bancaria_Cheque', {
+	extend: 'Ext.data.Model',
+	idProperty: 'entibancchq_id',
+
+	fields: [
+		{ name: 'entibancchq_id', type: 'int' },
+		{ name: 'entibancchq_key', type: 'string' },
+		{ name: 'entibancchq_flga', type: 'string' },
+		{ name: 'entibancchq_type', type: 'int' },
+		{ name: 'entibancchq_nro', type: 'string' },
+		{ name: 'entibancchq_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'mone_id', type: 'int' },
+		{ name: 'entibancchq_monto', type: 'float' },
+		{ name: 'entibancchq_observ', type: 'string' },
+		{ name: 'entibancchq_pdf', type: 'string' },
+		{ name: 'entibancchq_estado', type: 'int' },
+		{ name: 'cuebancmov_id', type: 'int' },
+		{ name: 'entibancchq_estado', type: 'int' },
+		{ name: 'entibanc_nombre', type: 'string' },
+		{ name: 'mone_abrev', type: 'string' },
+		{ name: 'tablex', type: 'int' },
+		{ name: 'tablex_id', type: 'int' },
+		{ name: 'tablex_key', type: 'string' },
+		{ name: 'tablex_documento', type: 'string' },
+		{ name: 'tablex_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'cuebancmov_key', type: 'string' },
+		{ name: 'cuebancmov_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'cuebancmov_nro', type: 'string' },
+		{ name: 'cuebanc_nrobanco', type: 'string' },
+	]
+});

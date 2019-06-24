@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.Number',{extend:'Ext.form.field.Number',alias:'widget.comp_number',decimalPrecision:2,decimalSeparator:'.',disabledCls:'myDisabledClass',enforceMaxLength:true,fieldCls:'txt00003',hideTrigger:true,labelClsExtra:'lbl00001',maxLength:10,maxValue:10000000,minValue:0,value:0,width:100});

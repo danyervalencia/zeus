@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.ExpedienteW",{extend:"Ext.data.Model",fields:[{name:"expe_nro",type:"string"},{name:"ped_fecha",type:"date",dateFormat:"Y-m-d"},{name:"tipoper_nombre",type:"string"},{name:"modcomp_nombre",type:"string"}]});

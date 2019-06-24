@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.TxtAreaTop",{extend:"Siace.view.comp.TxtArea",alias:"widget.comp_txtareatop",labelAlign:"top",margin:"0 4 0 0"});

@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnPrinter',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnPrinter',itemId:'btnPrinter',disabled:true,iconCls:'icon_Printer',text:'Imprimir'});

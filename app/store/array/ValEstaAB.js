@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.ValEstaAB",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"valesta_id",type:"int",},{name:"valesta_nombre",type:"string"}],data:[["",""],["0","Pendientes"],["1","Atendidos"]]});

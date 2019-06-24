@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Personas_FonosPPB",{extend:"Ext.data.Store",model:"Siace.model.pub.Persona_FonoPPB",pageSize:500,proxy:{type:"general",url:"php/public_personas_fonos_json_records.php"}});

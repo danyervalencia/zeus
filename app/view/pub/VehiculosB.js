@@ -1,0 +1,29 @@
+Ext.define("Siace.view.pub.VehiculosB",{extend:"Siace.view.PanelBrowse",alias:["widget.pub_vehb"],layout:{type:"hbox"},items:[
+{xtype:"panel",itemId:"panPV",layout:{type:"fit"},height:"100%",width:"62%",items:[
+	{xtype:"comp_grid",itemId:"grdPV",viewConfig:{getRowClass:function(r,rowI,rowP,str){return r.data.val_flga==98?"mx-letra-rojo-bold":(r.data.val_flga=="90"?"mx-letra-rojo":"mx-letra-negro");}},
+	 columns:[{xtype:"rownumberer",width:30},{dataIndex:"veh_placa",text:"Placa",width:80},{dataIndex:"val_fecha",text:"Fecha",align:"center",renderer:fext_FD(),width:80},{dataIndex:"motval_nombre",text:"Motivo",width:100},{dataIndex:"area_abrev",text:"U.O.",width:60},{dataIndex:"tablex_documento",text:"Referencia",width:80},{dataIndex:"tarea_codigo",text:"Tarea",align:"center",width:70},
+		{dataIndex:"indiv_apenom",text:"Operador",width:250},{dataIndex:"veh_nombre",text:"Unidad",width:100},{dataIndex:"val_monto",text:"Importe",align:"right",renderer:fext_FN(2),width:90}
+	]}
+ ],
+ dockedItems:[{xtype:"comp_cboopc"},
+	{xtype:"comp_tooltop",items:[{xtype:"comp_txttop",itemId:"veh_placa",enableKeyEvents:true,maxLength:10,vtype:'vehiculoPlaca',width:90},
+		{xtype:"comppub_year_code"}
+	]},
+	{xtype:"toolbar",dock:"bottom",ui:"footer",items:[{xtype:"comp_btnNew"},{xtype:"comp_btnModify"},{xtype:"comp_btnQuery"},{xtype:"comp_btnDelete"},]},{xtype:"comp_pag",itemId:"pagPV"}
+ ]
+},
+{xtype:"panel",border:false,height:"100%",width:"1%"},
+{xtype:"tabpanel",itemId:"tab01",height:"100%",plain:true,width:"37%",items:[
+	{xtype:"panel",itemId:"tabLVD",height:"100%",layout:{type:"fit"},title:"Detalle",items:[
+		{xtype:"comp_grid",itemId:"grdLVD",columns:[{xtype:"rownumberer",width:30},{dataIndex:"bs_codigo",text:"Código",width:105},{dataIndex:"bs_nombre",text:"Descripción",width:300},{dataIndex:"unimed_abrev",text:"U.M.",width:60},
+			{dataIndex:"valdet_cantid",text:"Cantidad",align:"right",renderer:fext_FN(3),width:85},{dataIndex:"valdet_preuni",text:"P.U.",align:"right",renderer:fext_FN(4),width:90},{dataIndex:"valdet_pretot",text:"Importe",align:"right",renderer:fext_FN(2),width:90}
+		]}
+	 ],
+	 dockedItems:[
+	 	{xtype:"form",border:false,width:"100%",items:[{xtype:"comp_tooltop",defaults:{labelWidth:65},layout:"vbox",items:[
+			{xtype:"container",layout:"hbox",width:"100%",items:[{xtype:"comp_dato",name:"val_documento",fieldLabel:"Documento",labelWidth:65,width:180},{xtype:"comp_datofecha",name:"val_fecha",labelWidth:35}]},
+			{xtype:"comp_dato",name:"area_nombre",fieldLabel:"U. Orgánica"},{xtype:"comp_dato",name:"secfunc_codename",fieldLabel:"Sec. Func."},{xtype:"comp_dato",name:"tarea_codename",fieldLabel:"Tarea"}
+		]}]},{xtype:"comp_pag",itemId:"pagLVD",disabled:true}
+	]}
+]}]
+});

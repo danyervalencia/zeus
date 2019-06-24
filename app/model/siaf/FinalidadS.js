@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.FinalidadS",{extend:"Ext.data.Model",fields:[{name:"fina_key",type:"string"},{name:"fina_code",type:"string"},{name:"fina_nombre",type:"string"}]});

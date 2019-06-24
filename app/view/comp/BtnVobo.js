@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnVobo',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnVobo',itemId:'btnVobo',disabled:true,iconCls:'icon_Vobo',text:'VoBo'});

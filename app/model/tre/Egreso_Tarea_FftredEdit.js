@@ -1,0 +1,3 @@
+Ext.define('Siace.model.tre.Egreso_Tarea_FftredEdit',{extend:'Ext.data.Model',fields:[
+{name:'egretareafte_monto',type:'float'},{name:'tareafte_key',type:'string'},{name:'tareafte_saldo',type:'float'},{name:'tarea_key',type:'string'},{name:'tarea_codigo',type:'string'},{name:'espedet_codigo',type:'string'},{name:'espedet_nombre',type:'string'},{name:'area_key',type:'string'},{name:'area_abrev',type:'string'}
+]});

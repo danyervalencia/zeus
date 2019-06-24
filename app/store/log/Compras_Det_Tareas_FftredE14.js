@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Compras_Det_Tareas_FftredE14",{extend:"Ext.data.Store",model:"Siace.model.log.Compra_Det_Tarea_FftredE14",proxy:{type:"general",url:"php/budget_egresos_tareas_fftred_json_records.php"}});

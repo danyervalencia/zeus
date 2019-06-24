@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Monedas',{extend:'Ext.data.Store',model:'Siace.model.pub.Moneda',proxy:{type:'general',url:'php/public_monedas_json_records.php'}});

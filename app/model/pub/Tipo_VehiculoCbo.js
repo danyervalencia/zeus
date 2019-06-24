@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Tipo_VehiculoCbo",{extend:"Ext.data.Model",fields:[{name:"tipveh_id",type:"int"},{name:"tipveh_nombre",type:"string"},{name:"tipveh_abrev",type:"string"}]});

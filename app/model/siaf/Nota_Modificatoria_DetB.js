@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.Nota_Modificatoria_DetB",{extend:"Ext.data.Model",fields:[{name:"notamodifdet_id",type:"int"},{name:"secfunc_code",type:"string"},{name:"notamodifdet_monto_a",type:"float"},{name:"notamodifdet_monto_de",type:"float"},{name:"fuefin_code",type:"string"},{name:"espedet_nombre",type:"string"},{name:"espedet_codigo",type:"string"}]});

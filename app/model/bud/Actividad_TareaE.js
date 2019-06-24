@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Actividad_TareaE",{extend:"Ext.data.Model",fields:[{name:"activtarea_key",type:"string"},{name:"activtarea_nombre",type:"string"},{name:"unimed_id",type:"string"},{name:"activtarea_cantid",type:"float",convert:null},{name:"activtarea_monto",type:"float",convert:null},{name:"activ_key",type:"string"}]});

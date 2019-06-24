@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.FuncionCbo",{extend:"Ext.data.Model",fields:[{name:"func_code",type:"string"},{name:"func_nombre",type:"string"},{name:"func_codename",type:"string"}]});

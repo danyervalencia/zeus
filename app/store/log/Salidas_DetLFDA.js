@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.Salidas_DetLFDA',{extend:'Ext.data.Store',model:'Siace.model.log.Salida_DetLFDA',pageSize:500,proxy:{type:'general',url:'php/logistics_salidas_det_json_records.php'}});

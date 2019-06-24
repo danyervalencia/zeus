@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Tipos_TareasCboTCA",{extend:"Ext.data.Store",model:"Siace.model.bud.Tipo_TareaCboTCA",proxy:{type:"general",url:"php/budget_tipos_tareas_json_records.php"}});

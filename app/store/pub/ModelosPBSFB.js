@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.ModelosPBSFB",{extend:"Ext.data.Store",model:"Siace.model.pub.ModeloPBSFB",pageSize:500,proxy:{type:"general",url:"php/public_modelos_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.CertifmetaW",{extend:"Ext.data.Model",fields:[{name:"certif_id",type:"int"},{name:"certif_fecha",type:"date",dateFormat:"Y-m-d"},{name:"certifmeta_monto",type:"float"},{name:"certif_documento",type:"string"},{name:"secfunc_codename",type:"string"},{name:"fuefin_codename",type:"string"},{name:"espedet_codename",type:"string"}]});

@@ -1,0 +1,1 @@
+Ext.define('Siace.model.bud.Fuente_FinanciamientoCbo',{extend:'Ext.data.Model',fields:[{name:'fuefin_id',type:'int'},{name:'fuefin_code',type:'string'},{name:'fuefin_nombre',type:'string'},{name:'fuefin_codename',type:'string'}]});

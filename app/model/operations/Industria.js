@@ -1,0 +1,40 @@
+Ext.define('Siace.model.operations.Industria', {
+	extend: 'Ext.data.Model',
+
+	idProperty: 'indus_id',
+
+	fields: [
+		{ name: 'indus_id', type: 'int' },
+		{ name: 'indus_key', type: 'string' },
+		{ name: 'indus_flga', type: 'string' },
+		{ name: 'alma_id', type: 'int' },
+		{ name: 'doc_id', type: 'int' },
+		{ name: 'indus_serie', type: 'int' },
+		{ name: 'indus_aux', type: 'int' },
+		{ name: 'indus_nro', type: 'int' },
+		{ name: 'indus_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'mone_id', type: 'int' },
+		{ name: 'indus_monto', type: 'float' },
+		{ name: 'indus_observ', type: 'string' },
+		{ name: 'indus_estado', type: 'string' },
+		{ name: 'fase_id', type: 'int' },
+		{ name: 'indusfase_fechaing' },
+		{ name: 'indusfase_usur_id', type: 'int' },
+		{ name: 'indusfase_observ', type: 'string' },
+		{ name: 'indus_documento', type: 'string' },
+		{ name: 'alma_key', type: 'string' },
+		{ name: 'alma_code', type: 'string' },
+		{ name: 'alma_nombre', type: 'string' },
+		{ name: 'alma_abrev', type: 'string' },
+		{ name: 'mone_nombre', type: 'string' },
+		{ name: 'mone_abrev', type: 'string' },
+		{ name: 'usur_login', type: 'string' },
+		{ name: 'indusinsu_rows', type: 'int' },
+		{ name: 'indus_productos' },
+		{ name: 'prdcc_rows', type: 'int' },
+
+		{ name: 'bs_key', type: 'string' },
+		{ name: 'bs_codigo', type: 'string' },
+		{ name: 'bs_nombre', type: 'string' },		
+	]
+});

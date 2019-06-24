@@ -1,0 +1,4 @@
+Ext.define("Siace.view.bud.ProyectosS",{extend:"Siace.view.WindowSearch",alias:"widget.bud_proys",width:600,items:[{xtype:"form",bodyPadding:0,frame:false,items:[
+{xtype:"container",layout:"hbox",margin:"0 0 5 0",items:[{xtype:"comp_txttop",itemId:"proy_code",enableKeyEvents:true,fieldLabel:"&nbsp;SNIP",maxLength:7,width:70},{xtype:"comp_txttop",itemId:"proy_nombre",enableKeyEvents:true,fieldLabel:"&nbsp;Descripción",maxLength:30,width:220}]},
+{xtype:"comp_grid",itemId:"grdBP",height:320,columns:[{dataIndex:"proy_code",text:"SNIP",width:70},{dataIndex:"proy_nombre",text:"Descripción",width:1000}]},{xtype:"comp_pag",itemId:"pagBP"}
+]}]});

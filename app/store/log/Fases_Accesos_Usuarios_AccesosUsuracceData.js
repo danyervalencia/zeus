@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Fases_Accesos_Usuarios_AccesosUsuracceData",{extend:"Ext.data.Store",model:"Siace.model.log.Fase_Acceso_Usuario_AccesoUsuracceData",pageSize:500,proxy:{type:"general",url:"php/logistics_fases_accesos_usuarios_accesos_json_records.php"}});

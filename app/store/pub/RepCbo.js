@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.RepCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.RepCbo",proxy:{type:"general",url:"php/public_reportes_json_records.php"}});

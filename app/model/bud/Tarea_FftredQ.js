@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tarea_FftredQ",{extend:"Ext.data.Model",fields:[{name:"key",type:"string"},{name:"documento",type:"string"},{name:"fecha",type:"date",dateFormat:"Y-m-d"},{name:"expe_nro",type:"int",convert:null},{name:"referencia",type:"string"},{name:"detalle",type:"string"},{name:"ingreso",type:"float"},{name:"egreso",type:"float"},{name:"saldo",type:"float"}]});

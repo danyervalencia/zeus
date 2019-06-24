@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Tipos_Documentos_IdentidadCbo',{extend:'Ext.data.Store',model:'Siace.model.pub.Tipo_Documento_IdentidadCbo',proxy:{type:'general',url:'php/public_tipos_documentos_identidad_json_records.php'}});

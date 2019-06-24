@@ -1,0 +1,3 @@
+Ext.define("Siace.view.pub.MarcasE",{extend:"Siace.view.WindowEdit",alias:"widget.pub_marce",width: 500,items:[
+{xtype:"form",border:true,bodyPadding:8,defaults:{labelWidth:70,width:"100%"},layout:{type:"vbox"},width:"100%",items:[{xtype:"comp_txt",itemId:"marc_nombre",name:"marc_nombre",allowBlank:false,fieldLabel:"Nombre",maxLength:80},{xtype:"comp_txt",itemId:"marc_abrev",name:"marc_abrev",fieldLabel:"Abrev.",maxLength:10,width:150},{xtype:"comp_txtarea",itemId:"marc_observ",name:"marc_observ",fieldLabel:"Comentario"}]}
+]});

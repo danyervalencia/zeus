@@ -1,0 +1,14 @@
+Ext.define("Siace.view.log.PedidosR",{extend:"Siace.view.PanR",alias:"widget.log_pedr",requires:["Siace.view.PanR1","Siace.view.TpnR1","Siace.view.comp.siaf.ProysnipS","Siace.view.comp.CboFlt","Siace.view.comp.log.Fase_name","Siace.view.comp.log.Categ_name"],items:[
+{xtype:"panr1",items:[
+	{xtype:"container",layout:"hbox",width:"100%",items:[{xtype:"comp_cbo",itemId:"rep_id",valueField:"rep_code",displayField:"rep_nombre",fieldLabel:"Reporte",flex:1,labelWidth:70,margin:"4 4 5 0"},{xtype:"comppub_year_code",fieldLabel:"",margin:"4 0"}]},
+	{xtype:"comp_fct",fieldLabel:"Periodo",items:[{xtype:"comp_fechaini",fieldLabel:""},{xtype:"comp_fechafin",fieldLabel:""},{xtype:"displayfield",flex:1},{xtype:"comp_cbo",itemId:"tipped_id",valueField:"tabgen_id",displayField:"tabgen_nombre",fieldLabel:"Tipo",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",labelWidth:40,width:140}]},
+	{xtype:"compsiaf_proysnips"},{xtype:"comppub_area_nombre",disabled:true},{xtype:"compbud_secfunc_codename",disabled:true},{xtype:"compbud_tarea_codename",disabled:true},{xtype:"compbud_fuefin_codename"},{xtype:"compbud_tiprecur_codename"},{xtype:"compbud_espedet_codename"},
+	{xtype:"comp_fct",fieldLabel:"Fase",items:[{xtype:"comp_cboflt",fieldLabel:""},{xtype:"complog_fasename",fieldLabel:""},{xtype:"displayfield",flex:1},{xtype:"complog_categname"}]},
+	{xtype:"comp_fct",fieldLabel:"Fase Archivo",items:[{xtype:"comp_cboflt",itemId:"filterx",fieldLabel:""},{xtype:"complog_fasename",itemId:"fase_idx",fieldLabel:""},{xtype:"comp_datetop",itemId:"pedfase_fechaini",endDateField:"pedfase_fechafin",vtype:"daterange"},{xtype:"comp_date",itemId:"pedfase_fechafin",startDateField:"pedfase_fechaini",vtype:"daterange"}]},
+	{xtype:"comp_cbo",itemId:"usuracce_key",name:"usuracce_key",valueField:"usuracce_key",displayField:"indiv_apenom",tpl:"<tpl for='.'><div class='x-boundlist-item'>{indiv_apenom}&nbsp;</div></tpl>",fieldLabel:"Cotizador",listConfig:{cls:"item00001",minWidth:"100%"},width:"100%"},
+	{xtype:"comp_fct",fieldLabel:"Bien/Serv.",items:[{xtype:"comppub_bst_codeab",fieldLabel:""},{xtype:"comppub_bsg_codeab",disabled:true,fieldLabel:""},{xtype:"comppub_bsc_codeab",disabled:true,fieldLabel:""},{xtype:"comppub_bsf_codeab",disabled:true,fieldLabel:""},{xtype:"comp_txt",itemId:"bs_code",name:"bs_code",maxLength:4,vtype:"onlyNumeric",width:50}]}
+],__compSPSS:"",setCompSPSS:function(poC){this.__compSPSS=poC;},getCompSPSS:function(){return this.__compSPSS;},
+dockedItems:[{xtype:"comp_toolbtn",items:[{xtype:"comp_btnPdf"},{xtype:"comp_btnExcel"}]}]
+},
+{xtype:"tpnr1",items:[]}
+]});

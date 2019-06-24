@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.FasesNombre03',{extend:'Ext.data.Store',model:'Siace.model.log.FaseNombre03',proxy:{type:'general',url:'php/logistics_fases_json_records.php'}});

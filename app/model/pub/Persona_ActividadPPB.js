@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Persona_ActividadPPB',{extend:'Ext.data.Model',fields:[{name:'persactiv_key',type:'string'},{name:'persactiv_estado',type:'int'},{name:'activ_nombre',type:'string'},{name:'bst_abrev',type:'string'}]});

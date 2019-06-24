@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnCancel",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnCancel",itemId:"btnCancel",iconCls:"icon_Cancel",text:"Cancelar"});

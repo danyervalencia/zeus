@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Buena_ProBPO",{extend:"Ext.data.Store",model:"Siace.model.log.Buena_ProBPO",pageSize:500,proxy:{type:"general",url:"php/logistics_buena_pro_json_records.php"}});

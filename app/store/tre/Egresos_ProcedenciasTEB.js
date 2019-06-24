@@ -1,0 +1,1 @@
+Ext.define('Siace.store.tre.Egresos_ProcedenciasTEB',{extend:'Ext.data.Store',model:'Siace.model.tre.Egreso_ProcedenciaTEB',pageSize:500,proxy:{type:'general',url:'php/treasury_egresos_json_records.php'}});

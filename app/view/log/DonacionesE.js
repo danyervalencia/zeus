@@ -1,0 +1,22 @@
+Ext.define("Siace.view.log.DonacionesE",{extend:"Siace.view.WindowEdit",alias:"widget.log_donae",width:880,items:[{xtype:"form",bodyPadding:6,border:true,layout:{type:"vbox"},items:[
+{xtype:"panel",border:false,layout:{type:"hbox"},width:"100%",items:[
+	{xtype:"panel",border:false,defaults:{labelWidth:55},flex:1,layout:{type:"vbox"},items:[{xtype:"hiddenfield",itemId:"donadet_item",value:0},
+		{xtype:"fieldcontainer",fieldLabel:"Proveedor",labelClsExtra:"lbl00001",layout:"hbox",width:"100%",items:[{xtype:"hiddenfield",itemId:"pers_key",name:"pers_key"},{xtype:"hiddenfield",itemId:"PERS_RUC"},{xtype:"comp_txttop",itemId:"pers_ruc",enableKeyEvents:true,maxLength:11,submitValue:false},{xtype:"comp_btn_imgsearch",itemId:"btnPers_search"},{xtype:"displayfield",itemId:"pers_nombre",fieldCls:"df00101"}]},
+		{xtype:"comp_date",itemId:"dona_fecha",name:"dona_fecha",allowBlank:false,fieldLabel:"Fecha",width:160}
+	]},{xtype:"displayfield",width:10},
+	{xtype:"container",layout:{type:"vbox"},width:250,items:[
+		{xtype:"fieldset",defaults:{labelWidth:60},layout:{type:"vbox"},padding:"6 6 4 6",width:"100%",items:[{xtype:"comppub_doc_nombre",width:"100%"},
+			{xtype:"fieldcontainer",fieldLabel:"Número",labelClsExtra:"lbl00001",layout:"hbox",width:"100%",items:[{xtype:"comp_cbotop",itemId:"tipdoc_id",name:"tipdoc_id",store:"array.TipDocAB",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tipdoc_nombre}&nbsp;</div></tpl>",valueField:"tipdoc_id",displayField:"tipdoc_abrev",listConfig:{cls:'item00001',minWidth:80},width:40},{xtype:"comp_txttop",itemId:"dona_serie",name:"dona_serie",align:"center",maxLength:4,width:55},{xtype:"comp_txt",itemId:"dona_nro",name:"dona_nro",align:"center",flex:1,maxLength:10}]}
+		]}
+	]}
+]},
+{xtype:"tabpanel",activeTab:0,plain:true,width:"100%",items:[
+	{xtype:"panel",itemId:"tabDetalle",title:"Detalle de Donación",height:278,items:[{xtype:"comp_grid",itemId:"grdLDD",height:278,columns:[{xtype:"rownumberer",width:30},{dataIndex:"bs_codigo",text:"Código",sortable:false,width:105},{dataIndex:"bs_nombre",text:"Descripción",sortable:false,width:373},{dataIndex:"unimed_abrev",text:"Unid.",sortable:false,width:45},{dataIndex:"donadet_cantid",text:"Cantid",align:"right",renderer:Ext.util.Format.numberRenderer("000,000,000.000"),sortable:false,width:85,editor:{xtype:"comp_number",allowBlank:false,decimalPrecision:3,maxLength:15,maxValue:999999999}},{dataIndex:"donadet_preuni",text:"P. Unitario",align:"right",renderer:Ext.util.Format.numberRenderer("000,000,000.00000000"),sortable:false,width:105,editor:{xtype:"comp_number",allowBlank:false,decimalPrecision:6,maxLength:15,maxValue:999999999}},{dataIndex:"donadet_pretot",text:"Importe",align:"right",renderer:Ext.util.Format.numberRenderer("000,000,000.00"),sortable:false,width:90}]}]},
+	{xtype:"panel",itemId:"tabComplementos",title:"Complementarios",bodyPadding:8,height:200,width:"100%",layout:"vbox",items:[{xtype:"comp_txtarea",itemId:"dona_observ",name:"dona_observ",fieldLabel:"Glosa",labelWidth:45,width:"100%",height:150},{xtype:"container",layout:"hbox",margin:"0 0 5 0",width:"100%",items:[{xtype:"hiddenfield",itemId:"dona_file1",name:"dona_file1"},{xtype:"comp_file",itemId:"ffiDona_file1",name:"ffiDona_file1",buttonOnly:false,hideLabel:false,fieldLabel:"&nbsp;Archivo Adjunto",labelWidth:90,flex:1},{xtype:"comp_btn_imgpdf",itemId:"btnDona_file1Delete",iconCls:"icon_Delete_90",disabled:true},{xtype:"comp_btn_imgpdf",itemId:"btnDona_file1Down",disabled:true,margin:"0 0 0 0"}]}]}
+]},
+{xtype:"container",layout:"hbox",width:"100%",margin:"3 0 0 0",items:[{xtype:"button",itemId:"btnAdd",text:"Agregar",iconCls:"icon_Add",margin:"0 5",padding:"2 6 2 8"},{xtype:"button",itemId:"btnSuppress",text:"Eliminar",disabled:true,iconCls:"icon_Suppress",padding:"2 6 2 8"},{xtype:"displayfield",flex:1},{xtype:"comp_curr",itemId:"dona_monto",disabled:true,fieldLabel:"Importe",labelWidth:55,margin:"0 19 0 0",value:0,width:151}]}
+]}],
+__compPPS:null,setCompPPS:function(poComp){this.__compPPS=poComp;},getCompPPS:function(){return this.__compPPS;},
+__compPBSS:null,setCompPBSS:function(poComp){this.__compPBSS=poComp;},getCompPBSS:function(){return this.__compPBSS;},
+__nuk:"",setNUK:function(poNUK){this.__nuk=poNUK;},getNUK:function(){return this.__nuk;}
+});

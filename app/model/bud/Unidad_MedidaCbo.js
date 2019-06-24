@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Unidad_MedidaCbo",{extend:"Ext.data.Model",fields:[{name:"unimed_id",type:"string"},{name:"unimed_nombre",type:"string"},{name:"unimed_abrev",type:"string"}]});

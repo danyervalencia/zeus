@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.OrdenesPPB",{extend:"Ext.data.Store",model:"Siace.model.log.OrdenPPB",pageSize:500,proxy:{type:"general",url:"php/logistics_ordenes_json_records.php"}});

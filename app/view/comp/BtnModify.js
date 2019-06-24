@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnModify',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnModify',itemId:'btnModify',disabled:true,iconCls:'icon_Modify',text:'Modificar'});

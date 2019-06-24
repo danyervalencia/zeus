@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Pedidos_Det_Tareas_FftredE",{extend:"Ext.data.Store",model:"Siace.model.log.Pedido_Det_Tarea_FftredE",pageSize:500,proxy:{type:"general",url:"php/logistics_pedidos_det_tareas_fftred_json_records.php"}});

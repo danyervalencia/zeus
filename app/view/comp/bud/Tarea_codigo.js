@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Tarea_codigo",{extend:"Siace.view.comp.CboTop",alias:"widget.compbud_tarea_codigo",itemId:"tarea_key",valueField:"tarea_key",displayField:"tarea_codigo",tpl:"<tpl for='.''><div class='x-boundlist-item'>{tarea_codigo}&nbsp;&nbsp;{tarea_nombre}</div></tpl>",fieldLabel:"&nbsp;Tarea",listConfig:{cls:"item00001",minWidth:400},width:75});

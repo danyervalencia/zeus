@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.ValesWLVE",{extend:"Ext.data.Store",model:"Siace.model.log.ValeWLVE",pageSize:500,proxy:{type:"general",url:"php/logistics_vales_json_records.php"}});

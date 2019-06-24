@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.EgresosB",{extend:"Ext.data.Store",model:"Siace.model.bud.EgresoB",pageSize:500,proxy:{type:"general",url:"php/budget_egresos_json_records.php"}});

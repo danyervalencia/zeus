@@ -1,0 +1,4 @@
+Ext.define("Siace.controller.pub.BSBT3",{extend:"Ext.app.Controller",
+pbsb_btn:function(btn){var _ii=fext_oii(btn);var _t=btn.up("#tabLC");if(_ii=="btnQuery"){fext_CC("log.Cotizaciones").lc_View({comp:_t,grd:"grdLCD",TE:3,oi:3});}else if(_ii=="btnPrinter"){fext_CC("log.Cotizaciones").lc_Printer({comp:_t,grd:"grdLCD"});}else if(_ii=="btnProvider"){fext_CC("pub.Personas").pp_View({comp:_t,TE:3,grd:"grdLCD",oi:3});}},
+pbsb_sc:function(mod,r){if(r.length==1){var _t=mod.view.up("#tabLC");var _fg=r[0].data.coti_flga==98?true:"";fext_SDO(_t,"btnQuery","",3,_fg);fext_SDO(_t,"btnPrinter","",8,_fg);fext_SDO(_t,"btnProvider","",5020,_fg);}}
+});

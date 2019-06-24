@@ -1,0 +1,5 @@
+Ext.define("Siace.controller.pub.AreaB",{extend:"Ext.app.Controller",
+pab_sc:function(mod,r){if(r.length==1){var _pan=mod.view.up("pub_areab");var _p=_pan.down("#pan");fext_SDO(_p,"btnModify","",2);fext_SDO(_p,"btnQuery","",3);fext_SDO(_pan,"btnDelete","",7);fext_CC("pub.AreasB").pab_tabsClean(_pan,false);
+	Ext.Ajax.request({method:"POST",url:"php/public_areas_json_records.php",params:{xxArea_key:r[0].data.area_key,xxType_record:"win",ssNO_USK:"NoT",vs:fext_JE(fextpub_sessVar())},success:function(resp,opt){var _res=fext_DJ("",resp);var _md=fext_CM("pub.AreaW");if(_res.success&&_res.data.length==1){_md.set(_res.data[0]);}fext_LR(_pan.down("#tabBTA"),_md,);fext_LR(_pan.down("#tabPUA"),_md);fext_LR(_pan.down("#tabLFA"),_md);fext_LR(_pan.down("#tabLP"),_md);fext_LR(_pan.down("#tabLO"),_md);}});
+}}
+});

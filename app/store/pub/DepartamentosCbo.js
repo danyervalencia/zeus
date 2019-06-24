@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.DepartamentosCbo',{extend:'Ext.data.Store',model:'Siace.model.pub.DepartamentoCbo',proxy:{type:'general',url:'php/public_departamentos_json_records.php'}});

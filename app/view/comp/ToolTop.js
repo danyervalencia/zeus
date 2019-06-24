@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.ToolTop",{extend:"Ext.toolbar.Toolbar",alias:"widget.comp_tooltop",autoScroll:true,dock:"top",layout:"hbox",margin:"0 0 0 -4",ui:"footer",border:4});

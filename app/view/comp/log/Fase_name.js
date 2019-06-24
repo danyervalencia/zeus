@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.log.Fase_name",{extend:"Siace.view.comp.CboTop",alias:"widget.complog_fasename",itemId:"fase_id",valueField:"fase_id",displayField:"fase_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{fase_nombre}&nbsp;</div></tpl>",fieldLabel:"&nsbp;Fase",width:140});

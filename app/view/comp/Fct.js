@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Fct",{extend:"Ext.form.FieldContainer",alias:"widget.comp_fct",labelClsExtra:"lbl00001",layout:"hbox",margin:"0 0 5 0",width:"100%"});

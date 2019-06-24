@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.LocalCbo",{extend:"Ext.data.Model",fields:[{name:"loc_key",type:"string"},{name:"loc_nombre",type:"string"},{name:"loc_abrev",type:"string"},{name:"loc_codename",type:"string"}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.tre.Cuentas_BancariasCboComprob",{extend:"Ext.data.Store",model:"Siace.model.tre.Cuenta_BancariaCboComprob",proxy:{type:"general",url:"php/treasury_cuentas_bancarias_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Especificas_DetCbo",{extend:"Ext.data.Store",model:"Siace.model.bud.Especifica_DetCbo",proxy:{type:"general",url:"php/budget_especificas_det_json_records.php"}});

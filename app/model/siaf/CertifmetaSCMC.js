@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.CertifmetaSCMC",{extend:"Ext.data.Model",fields:[{name:"certifmeta_id",type:"int"},{name:"certifmeta_anulacion",type:"float"},{name:"certifmeta_compromiso",type:"float"},{name:"doc_fecha",type:"date",dateFormat:"Y-m-d"},{name:"doc_num",type:"string"},{name:"doc_abrev",type:"string"}]});

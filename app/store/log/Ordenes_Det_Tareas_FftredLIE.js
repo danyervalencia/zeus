@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Ordenes_Det_Tareas_FftredLIE",{extend:"Ext.data.Store",model:"Siace.model.log.Orden_Det_Tarea_FftredLIE",pageSize:500,proxy:{type:"general",url:"php/logistics_ordenes_det_tareas_fftred_json_records.php"}});

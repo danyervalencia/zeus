@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.ProvinciasCbo',{extend:'Ext.data.Store',model:'Siace.model.pub.ProvinciaCbo',proxy:{type:'general',url:'php/public_provincias_json_records.php'}});

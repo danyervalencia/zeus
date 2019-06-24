@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Tareas_Usuarios_Accesos_DocumentosE",{extend:"Ext.data.Store",model:"Siace.model.bud.Tarea_Usuario_Acceso_DocumentoE",proxy:{type:"general",url:"php/budget_tareas_usuarios_accesos_documentos_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Tipos_VehiculoCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.Tipo_VehiculoCbo",proxy:{type:"general",url:"php/public_tipos_vehiculo_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.GastoBMB",{extend:"Ext.data.Store",model:"Siace.model.siaf.GastoBMB",pageSize:500,proxy:{type:"general",url:"php/siaf_gasto_json_records.php"}});

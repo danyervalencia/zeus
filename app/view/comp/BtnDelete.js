@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnDelete",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnDelete",itemId:"btnDelete",disabled:true,iconCls:"icon_Delete",text:"Eliminar"});

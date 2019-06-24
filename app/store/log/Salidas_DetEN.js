@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Salidas_DetEN",{extend:"Ext.data.Store",model:"Siace.model.log.Salida_DetEN",pageSize:2000,proxy:{type:"general",url:"php/logistics_salidas_det_json_records.php"}});

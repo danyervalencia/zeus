@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Loc_codename",{extend:"Siace.view.comp.Cbo",alias:"widget.comppub_loc_codename",itemId:"loc_key",valueField:"loc_key",displayField:"loc_codename",tpl:"<tpl for='.'><div class='x-boundlist-item'>{loc_codename}&nbsp;</div></tpl>",fieldLabel:"Local",width:"100%"});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Usuarios_Accesos_Menus_OpcionesOA",{extend:"Ext.data.Store",model:"Siace.model.pub.Usuario_Acceso_Menu_OpcionOA",proxy:{type:"general",url:"php/public_usuarios_accesos_menus_opciones_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.Time',{extend:'Ext.form.field.Time',alias:'widget.comp_time',disabledCls:'myDisabledClass',enforceMaxLength:true,fieldCls:'txt00001',format:'H:i',increment:1,labelClsExtra:'lbl00001',listConfig:{cls:'item00001'},maxLength:5,minValue:'0:00',maxValue:'23:59',width:100});

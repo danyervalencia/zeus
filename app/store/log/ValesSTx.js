@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.ValesSTx",{extend:"Ext.data.Store",model:"Siace.model.log.ValeSTx",proxy:{type:"general",url:"php/logistics_vales_json_search_tablex.php"}});

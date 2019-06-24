@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tipo_TareaCboTCA",{extend:"Ext.data.Model",fields:[{name:"tiptarea_id",type:"int"},{name:"tiptarea_codename",type:"string"}]});

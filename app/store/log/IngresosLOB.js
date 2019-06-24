@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.IngresosLOB',{extend:'Ext.data.Store',model:'Siace.model.log.IngresoLOB',proxy:{type:'general',url:'php/logistics_ingresos_json_records.php'}});

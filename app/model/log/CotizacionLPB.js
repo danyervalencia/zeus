@@ -1,0 +1,3 @@
+Ext.define("Siace.model.log.CotizacionLPB",{extend:"Ext.data.Model",fields:[{name:"coti_key",type:"string"},{name:"coti_flga",type:"string"},{name:"coti_fecha",type:"date",dateFormat:"Y-m-d"},{name:"coti_monto",type:"float"},{name:"coti_vigencia",type:"int"},{name:"coti_plazo",type:"int"},{name:"coti_garantia",type:"int"},{name:"coti_documento",type:"string"},
+{name:"doc_abrev",type:"string"},{name:"pers_ruc",type:"string"},{name:"pers_nombre",type:"string"},{name:"lugentr_abrev",type:"string"},{name:"tippag_abrev",type:"string"},{name:"bp_monto",type:"float"},{name:"coti_file1",type:"string"},{name:"row_color",type:"string"}
+]});

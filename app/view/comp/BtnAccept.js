@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnAccept",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnAccept",itemId:"btnAccept",iconCls:"icon_Accept",text:"Aceptar"});

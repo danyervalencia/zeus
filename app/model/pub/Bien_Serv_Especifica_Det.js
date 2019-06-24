@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Bien_Serv_Especifica_Det',{extend:'Ext.data.Model',fields:[{name:'bsespedet_key',type:'string'},{name:'bsespedet_observ',type:'string'},{name:'bsespedet_estado',type:'int'},{name:'bs_key',type:'string'},{name:'espedet_id',type:'int'}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Destino_SalidaCbo",{extend:"Ext.data.Model",fields:[{name:"destsal_id",type:"int"},{name:"destsal_nombre",type:"string"}]});

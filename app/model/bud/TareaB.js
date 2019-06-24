@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.TareaB",{extend:"Ext.data.Model",fields:[{name:"tarea_key",type:"string"},{name:"tarea_nombre",type:"string"},{name:"tarea_estado",type:"int"},{name:"tarea_codigo",type:"string"},{name:"unieje_codigo",type:"string"},{name:"tipcost_abrev",type:"string"},{name:"tipgast_code",type:"string"},{name:"tipespedet_code",type:"string"}]});

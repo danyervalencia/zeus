@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Usuario_Acceso_Menu_OpcionPMB",{extend:"Ext.data.Model",fields:[{name:"usuraccemenuopc_id",type:"int"},{name:"usuracce_id",type:"int"},{name:"usuraccemenuopc_estado",type:"int"},{name:"indiv_apenom",type:"string"},{name:"area_nombre",type:"string"},{name:"cargusur_nombre",type:"string"},{name:"rcol",type:"string"},]});

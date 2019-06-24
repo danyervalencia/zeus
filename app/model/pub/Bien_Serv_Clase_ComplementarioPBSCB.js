@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Bien_Serv_Clase_ComplementarioPBSCB',{extend:'Ext.data.Model',fields:[{name:'bsccompl_key',type:'string'},{name:'bsccompl_orden',type:'int'},{name:'bsccompl_estado',type:'int'},{name:'bsccompl_oblig',type:'string'},{name:'compl_nombre',type:'string'}]});

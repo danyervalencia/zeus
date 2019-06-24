@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Area_abrev",{extend:"Siace.view.comp.CboTop",alias:"widget.comppub_area_abrev",itemId:"area_key",valueField:"area_key",displayField:"area_abrev",tpl:"<tpl for='.'><div class='x-boundlist-item'>{area_abrev}&nbsp;</div></tpl>",fieldLabel:"&nbsp;U.O.",width:75});

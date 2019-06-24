@@ -1,0 +1,1 @@
+Ext.define('Siace.store.array.Mone',{extend:'Ext.data.ArrayStore',autoLoad:true,fields:[{name:'mone_id',type:'int'},{name:'mone_nombre',type:'string'},{name:'mone_nombre02',type:'string'},{name:'mone_abrev',type:'string'}],data:[['1','Soles','Soles','S/.'],['2','DolaresAmericanos','Dolares','US$']]});

@@ -1,0 +1,13 @@
+Ext.define("Siace.view.bud.Tareas_FftredE",{extend:"Siace.view.WindowEdit",alias:"widget.bud_tareaftee",layout:{type:"vbox"},width:750,items:[
+{xtype:"panel",itemId:"panBT",width:"100%",items:[{xtype:"form",border:false,bodyPadding:"4 4 4 6",defaults:{width:"100%"},layout:{type:"vbox"},width:"100%",items:[
+	{xtype:"comp_tooltop",defaults:{labelWidth:65},layout:"vbox",items:[{xtype:"container",layout:"hbox",items:[{xtype:"comp_dato",name:"year_id",fieldLabel:"Año Trabajo",labelWidth:65,width:160},{xtype:"comp_dato",name:"tipespedet_nombre",fieldLabel:"Tipo Clasificador",labelWidth:95}]},{xtype:"comp_dato",name:"secfunc_codename",fieldLabel:"Sec. Func."},{xtype:"comp_dato",name:"tarea_codename",fieldLabel:"Tarea Func."}]}
+]}]},
+{xtype:"panel",itemId:"panBTF",margin:"0 0 0 0",width:"100%",items:[
+{xtype:"form",bodyPadding:"4 8 8 8",border:false,defaults:{anchor:"100%",labelWidth:70},width:"100%",items:[{xtype:"hiddenfield",itemId:"year_id",submitValue:false},{xtype:"hiddenfield",itemId:"tarea_key",name:"tarea_key"},
+	{xtype:"compbud_fuefin_codename",editable:true,submitValue:false},{xtype:"compbud_tiprecur_codename",editable:true,submitValue:false},{xtype:"compbud_espedet_codename",editable:true,submitValue:false},
+	{xtype:"container",layout:"hbox",margin:"0 0 5 0",width:"100%",items:[{xtype:"comp_curr",itemId:"tareafte_pia",name:"tareafte_pia",fieldLabel:"Monto P.I.A.",disabled:true,fieldCls:"txt00006",labelWidth:70,value:0.00,width:190},{xtype:"displayfield",flex:1}]},
+	{xtype:"container",layout:"hbox",margin:"0 0 5 0",width:"100%",items:[{xtype:"comp_curr",itemId:"tareafte_ajuste",name:"tareafte_ajuste",fieldLabel:"Monto Ajuste",labelWidth:70,value:0.00,width:190},{xtype:"label",itemId:"lblTareafte_valida",cls:"lbl00003",padding:"5 0 0 0",text:"Valida Saldo Presupuestal \xa0 ",flex:1},{xtype:"checkbox",itemId:"tareafte_valida",name:"_tareafte_valida",checked:true,width:13}]},
+	{xtype:"container",layout:"hbox",margin:"0 0 5 0",width:"100%",items:[{xtype:"comp_curr",itemId:"tareafte_otro",name:"tareafte_otro",fieldLabel:"Monto",labelWidth:70,value:0.00,width:190},{xtype:"label",itemId:"lblTareafte_estado",cls:"lbl00003",padding:"5 0 0 0",text:"Estado Activo \xa0 ",flex:1},{xtype:"checkbox",itemId:"tareafte_estado",name:"_tareafte_estado",checked:true,width:13}]},
+	{xtype:"comp_txtarea",itemId:"tareafte_observ",name:"tareafte_observ",fieldLabel:"Comentario"}
+]}]}
+]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Btn_imgModify",{extend:"Ext.button.Button",alias:"widget.comp_btn_imgmodify",iconCls:"icon_Modify_90",disabled:true,margin: "0 6 0 0"});

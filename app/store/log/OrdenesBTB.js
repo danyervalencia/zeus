@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.OrdenesBTB",{extend:"Ext.data.Store",model:"Siace.model.log.OrdenBTB",pageSize:500,proxy:{type:"general",url:"php/logistics_ordenes_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.PlanillaW",{extend:"Ext.data.Model",fields:[{name:"plan_fecha",type:"date",dateFormat:"Y-m-d"},{name:"plan_monto",type:"float",convert:null},{name:"plan_documento",type:"string"},{name:"tiporden_nombre",type:"string"},{name:"fuefin_codename",type:"string"},{name:"pers_codename",type:"string"},{name:"plan_certif",type:"string"}]});

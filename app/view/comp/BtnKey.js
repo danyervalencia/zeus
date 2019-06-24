@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnKey',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnKey',itemId:'btnKey',iconCls:'icon_Key',text:'Clave'});

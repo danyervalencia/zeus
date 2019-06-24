@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Tipos_OrdenesCbo",{extend:"Ext.data.Store",model:"Siace.model.log.Tipo_OrdenCbo",proxy:{type:"general",url:"php/logistics_tipos_ordenes_json_records.php"}});

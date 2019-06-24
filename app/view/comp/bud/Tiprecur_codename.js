@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Tiprecur_codename",{extend:"Siace.view.comp.Cbo",alias:"widget.compbud_tiprecur_codename",itemId:"tiprecur_id",valueField:"tiprecur_id",displayField:"tiprecur_codename",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tiprecur_codename}&nbsp;</div></tpl>",editable:true,fieldLabel:"T. Recurso",width:"100%"});

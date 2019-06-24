@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.FechaIni",{extend:"Siace.view.comp.Date",alias:"widget.comp_fechaini",itemId:"fechaini",endDateField:"fechafin",fieldLabel:"&nbsp;Fecha Inicial",labelAlign:"top",margin:"0 4 0 0",vtype:"daterange"});

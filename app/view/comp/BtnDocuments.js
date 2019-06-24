@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnDocuments",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnDocuments",itemId:"btnDocuments",iconCls:"icon_Documents",text:"Documentos"});

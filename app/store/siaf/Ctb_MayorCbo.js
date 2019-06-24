@@ -1,0 +1,1 @@
++Ext.define("Siace.store.siaf.Ctb_MayorCbo",{extend:"Ext.data.Store",model:"Siace.model.siaf.Ctb_MayorCbo",pageSize:500,proxy:{type:"general",url:"php/siaf_ctb_mayor_json_records.php"}});

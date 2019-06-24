@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.Nota_ModificatoriaB",{extend:"Ext.data.Store",model:"Siace.model.siaf.Nota_ModificatoriaB",pageSize:500,proxy:{type:"general",url:"php/siaf_nota_modificatoria_json_records.php"}});

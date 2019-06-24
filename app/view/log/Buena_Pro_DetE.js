@@ -1,0 +1,5 @@
+Ext.define("Siace.view.log.Buena_Pro_DetE",{extend:"Siace.view.WindowEdit",alias:"widget.log_bpdete",title:"Cambio de Clasificador Presupuestal ::.",width:650,items:[{xtype:"form",border:true,bodyPadding:6,defaults:{labelWidth:70,width:"100%"},layout:{type:"vbox"},width:"100%",items:[
+{xtype:"hiddenfield",itemId:"bpdet_key"},{xtype:"hiddenfield",itemId:"tarea_key"},{xtype:"hiddenfield",itemId:"fuefin_id"},{xtype:"hiddenfield",itemId:"tiprecur_id"},{xtype:"hiddenfield",itemId:"espedet"},
+{xtype:"comp_tooltop",defaults:{labelWidth:70},layout:"vbox",items:[{xtype:"comp_dato",itemId:"secfunc_codename",fieldLabel:"Sec. Func."},{xtype:"comp_dato",itemId:"tarea_codename",fieldLabel:"Tarea Func."},{xtype:"comp_dato",itemId:"bs_codigo",fieldLabel:"Código"},{xtype:"comp_dato",itemId:"bs_nombre",fieldLabel:"Descripción"}]},
+{xtype:"compbud_espedet_codename",tpl:"<tpl for='.'><div class='x-boundlist-item' data-qtip=' Saldo Presupuestal: {[fjsFormatNumeric(values.tareafte_saldo,2)]} '>{espedet_codename}</div></tpl>",editable:true}
+]}]});

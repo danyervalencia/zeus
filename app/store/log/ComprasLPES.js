@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.ComprasLPES",{extend:"Ext.data.Store",model:"Siace.model.log.CompraLPES",pageSize:500,proxy:{type:"general",url:"php/logistics_compras_json_records.php"}});

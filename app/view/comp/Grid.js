@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Grid",{extend:"Ext.grid.Panel",alias:"widget.comp_grid",autoHeight:true,columnLines:true,viewConfig:{stripeRows:true}});

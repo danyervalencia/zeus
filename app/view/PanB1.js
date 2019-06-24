@@ -1,0 +1,1 @@
+Ext.define("Siace.view.PanB1",{extend:"Ext.panel.Panel",alias:"widget.panb1",itemId:"pan",border:false,bodyBorder:false,collapseDirection:"left",collapsible:true,floatable:false,header:false,height:"100%",layout:{type:"fit"},region:"west",split:true,style:"background-color:#FFFFFF;"});

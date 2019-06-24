@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Unidades_EjecutorasCbo",{extend:"Ext.data.Store",model:"Siace.model.bud.Unidad_EjecutoraCbo",proxy:{type:"general",url:"php/budget_unidades_ejecutoras_json_records.php"}});

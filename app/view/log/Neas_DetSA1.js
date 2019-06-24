@@ -1,0 +1,7 @@
+Ext.define("Siace.view.log.Neas_DetSA1",{extend:"Siace.view.WindowSearch",alias:"widget.log_neadetsa1",title:"Búsqueda de Bienes Internos ::.",width:850,items:[{xtype:"panel",items:[
+{xtype:"container",layout:"hbox",margin:"0 0 4 2",items:[{xtype:"hiddenfield",itemId:"proy_code"},{xtype:"hiddenfield",itemId:"meta_id"},{xtype:"hiddenfield",itemId:"fuefin_id"},
+	{xtype:"comppub_doc_nombre",editable:true,fieldLabel:"&nbsp;Documento",labelAlign:"top",margin:"0 4 0 0",value:0,width:200},{xtype:"comp_nrotop",itemId:"tablex_nro",maxLengtf:6,enableKeyEvents:true}
+]},
+{xtype:"comp_grid",itemId:"grd",height:320,columns:[{xtype:"rownumberer",width:35},{dataIndex:"bs_codigo",text:"Código",width:110},{dataIndex:"bs_nombre",text:"Descripción",width:345},{dataIndex:"unimed_abrev",text:"U.M.",width:60},{dataIndex:"cantid",text:"Cantidad",align:"right",renderer:fext_FN(3),width:90},{dataIndex:"preuni",text:"P.U.",align:"right",renderer:fext_FN(6),width:100},{dataIndex:"pretot",text:"Importe",align:"right",renderer:fext_FN(2),width:90},{dataIndex:"espedet_codigo",text:"Clasificador",width:95},{dataIndex:"debe_codigo",text:"Debe",width:90},{dataIndex:"documento",text:"Documento",width:95},{dataIndex:"fecha",text:"Fecha",align:"center",renderer:fext_FD(),width:80},{dataIndex:"item",text:"Item",align:"right",width:35},{dataIndex:"secfunc_code",text:"Sec.Func.",align:"center",width:60},{dataIndex:"fuefin_code",text:"Rb",width:35}]},{xtype:"comp_pag",itemId:"pag"}
+]}]
+});

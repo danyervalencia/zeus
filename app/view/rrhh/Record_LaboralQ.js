@@ -1,0 +1,13 @@
+Ext.define("Siace.view.rrhh.Record_LaboralQ",{extend:"Siace.view.PanelBrowse",alias:"widget.rrhh_reclabq",layout:{type:"hbox"},items:[
+{xtype:"panel",itemId:"panRRL",layout:{type:"fit"},height:"100%",width:"52%",items:[
+	{xtype:"comp_grid",itemId:"grdRRL",columns:[{dataIndex:"year_id",text:"Año",width:45},{dataIndex:"reclab_01",text:"Ene",width:43},{dataIndex:"reclab_02",text:"Feb",width:43},{dataIndex:"reclab_03",text:"Mar",width:43},{dataIndex:"reclab_04",text:"Abr",width:43},{dataIndex:"reclab_05",text:"May",width:43},{dataIndex:"reclab_06",text:"Jun",width:43},{dataIndex:"reclab_07",text:"Jul",width:43},{dataIndex:"reclab_08",text:"Ago",width:43},{dataIndex:"reclab_09",text:"Set",width:43},{dataIndex:"reclab_10",text:"Oct",width:43},{dataIndex:"reclab_11",text:"Nov",width:43},{dataIndex:"reclab_12",text:"Dic",width:43},{dataIndex:"reclab_monto",text:"Importe",align:"right",renderer:Ext.util.Format.numberRenderer("0,000,000.00"),width:75}]}
+],dockedItems:[{xtype:"comp_cboopc"},
+	{xtype:"comp_tooltop",items:[{xtype:"fieldcontainer",fieldLabel:"&nbsp;Trabajador",labelAlign:"top",layout:"hbox",items:[{xtype:"hiddenfield",itemId:"indiv_key"},{xtype:"hiddenfield",itemId:"INDIV_DNI"},{xtype:"comp_txttop",itemId:"indiv_dni",enableKeyEvents:true,maxLength:10,width:90},{xtype:"comp_btn_imgsearch",itemId:"btnPIS"},{xtype:"displayfield",itemId:"indiv_apenom",fieldCls:"df00101"}]}]},
+	{xtype:"comp_toolbtn",items:[{xtype:"comp_btnPrinter"},{xtype:"comp_btnExcel",fieldLabel:"Excel",disabled:true}]},{xtype:"comp_pag",itemId:"pagRRL",disabled:true}
+]},
+{xtype:"panel",border:false,height:"100%",width:20},
+{xtype:"tabpanel",itemId:"tab01",height:"100%",plain:true,flex:1,items:[
+	{xtype:"panel",itemId:"tabRRLD",height:"100%",layout:{type:"fit"},title:"Detalle",items:[{xtype:"comp_grid",itemId:"grdRRLD",columns:[{xtype:"rownumberer",width:30},{dataIndex:"reclab_documento",locked:true,text:"Documento",width:90},{dataIndex:"reclab_fecha",locked:true,text:"Fecha",align:"center",width:85,renderer:fext_FD()},{dataIndex:"reclab_periodo",text:"Periodo",width:160},{dataIndex:"area_abrev",text:"U.O.",width:60},{dataIndex:"tarea_codigo",text:"Tarea",width:70},{dataIndex:"fftr_codigo",text:"FF",width:45},{dataIndex:"reclab_monto",text:"Importe",align:"right",renderer:fext_FN(2),width:80}]}],dockedItems:[{xtype:"comp_cboopc"},{xtype:"comp_pag",itemId:"pagRRLD",disabled:true}]}
+]}],
+__compPIS:null,setCompPIS:function(poComp){this.__compPIS=poComp;},getCompPIS:function(){return this.__compPIS;}
+});

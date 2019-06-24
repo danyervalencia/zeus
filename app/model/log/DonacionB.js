@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.DonacionB",{extend:"Ext.data.Model",fields:[{name:"dona_key",type:"string"},{name:"dona_fecha",type:"date",dateFormat:"Y-m-d"},{name:"dona_monto",type:"float"},{name:"dona_file1",type:"string"},{name:"dona_documento",type:"string"},{name:"pers_ruc",type:"string"},{name:"pers_nombre",type:"string"}]});

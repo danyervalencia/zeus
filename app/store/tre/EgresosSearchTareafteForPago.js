@@ -1,0 +1,1 @@
+Ext.define('Siace.store.tre.EgresosSearchTareafteForPago',{extend:'Ext.data.Store',model:'Siace.model.tre.EgresoSearchTareafteForPago',proxy:{type:'general',url:'php/treasury_egresos_search_tareafte_for_pago.php'}});

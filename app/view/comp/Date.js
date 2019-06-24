@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Date",{extend:"Ext.form.field.Date",alias:"widget.comp_date",disabledCls:"myDisabledClass",enforceMaxLength:true,fieldCls:"txt00001",format:"d/m/Y",labelClsExtra:"lbl00001",maxLength:10,submitFormat:"Y-m-d",width: 95});

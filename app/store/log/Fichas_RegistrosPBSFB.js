@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Fichas_RegistrosPBSFB",{extend:"Ext.data.Store",model:"Siace.model.log.Ficha_RegistroPBSFB",pageSize:500,proxy:{type:"general",url:"php/logistics_fichas_registros_json_records.php"}});

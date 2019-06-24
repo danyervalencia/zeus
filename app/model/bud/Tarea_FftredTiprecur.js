@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tarea_FftredTiprecur",{extend:"Ext.data.Model",fields:[{name:"tareafte_key",type:"string"},{name:"tiprecur_id",type:"int"},{name:"tiprecur_code",type:"string"},{name:"tiprecur_nombre",type:"string"},{name:"tiprecur_codename",type:"string"}]});

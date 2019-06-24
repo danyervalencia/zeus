@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.Nota_ModificatoriaW",{extend:"Ext.data.Model",fields:[{name:"notamodif_key",type:"string"},{name:"notamodif_fecha",type:"date",dateFormat:"Y-m-d"},{name:"notamodif_monto",type:"float"},{name:"notamodif_documento",type:"string"},{name:"tipnotamodif_codename",type:"string"},{name:"fuefin_codename",type:"string"}]});

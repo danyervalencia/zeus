@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.ViaticosB",{extend:"Ext.data.Store",model:"Siace.model.log.ViaticoB",pageSize:500,proxy:{type:"general",url:"php/logistics_viaticos_json_records.php"}});

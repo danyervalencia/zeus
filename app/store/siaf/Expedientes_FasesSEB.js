@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.Expedientes_FasesSEB",{extend:"Ext.data.Store",model:"Siace.model.siaf.Expediente_FaseSEB",pageSize:500,proxy:{type:"general",url:"php/siaf_expedientes_fases_json_records.php"}});

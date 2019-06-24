@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Dato",{extend:"Ext.form.field.Display",alias:"widget.comp_dato",fieldCls:"df00104",labelClsExtra:"lbl00101",padding:"-4 0 -2 0",submitValue:false});

@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.BtnExcel",{extend:"Siace.view.comp.Btn",alias:"widget.comp_btnExcel",itemId:"btnExcel",iconCls:"icon_Excel",text:"Excel"});

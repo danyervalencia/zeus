@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Locales_AreasPLB",{extend:"Ext.data.Store",requires:["Siace.proxy.General"],model:"Siace.model.pub.Local_AreaPLB",pageSize:500,proxy:{type:"general",url:"php/public_locales_areas_json_records.php"}});

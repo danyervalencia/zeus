@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.FechaFin',{extend:'Siace.view.comp.Date',alias:'widget.comp_fechafin',itemId:'fechafin',fieldLabel:'&nbsp;Fecha Final',labelAlign:'top',margin:'0 4 0 0',startDateField:'fechaini',vtype:'daterange'});

@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.pub.Menu',{extend:'Ext.form.field.Hidden',alias:'widget.comppub_menu',itemId:'menu_id',disabled:true});

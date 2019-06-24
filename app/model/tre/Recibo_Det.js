@@ -1,0 +1,33 @@
+Ext.define('Siace.model.treasury.Recibo_Det', {
+	extend: 'Ext.data.Model',
+	idProperty: 'recibdet_id',
+
+	fields: [
+		{ name: 'recibdet_id', type: 'int' },
+		{ name: 'recibdet_key', type: 'string' },
+		{ name: 'recib_id', type: 'int' },
+		{ name: 'recibdet_item ', type: 'int' },
+		{ name: 'recib_serie', type: 'int' },
+		{ name: 'tablex', type: 'int' },
+		{ name: 'tablex_id', type: 'int' },
+		{ name: 'recibdet_monto', type: 'float' },
+		{ name: 'recibdet_monto_debe', type: 'float' },
+		{ name: 'tipcamb_monto', type: 'float' },
+		{ name: 'tipcamb_oper', type: 'int' },
+		{ name: 'recibdet_monto_pago', type: 'float' },
+		{ name: 'recibdet_monto_pago_real', type: 'float' },
+		{ name: 'recibdet_monto_saldo', type: 'float' },
+		{ name: 'recibdet_observ', type: 'string' },
+		{ name: 'recibdet_estado', type: 'int' },
+		{ name: 'recib_key', type: 'string' },
+		{ name: 'recib_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'mone_id', type: 'int' },
+		{ name: 'recib_monto', type: 'float'},
+		{ name: 'recib_documento', type: 'string' },
+		{ name: 'tippag_abrev', type: 'string' },
+		{ name: 'mone_abrev', type: 'string' },
+		{ name: 'tablex_key', type: 'string' },
+		{ name: 'tablex_documento', type: 'string' },
+		{ name: 'tablex_fecha', type: 'date', dateFormat: 'Y-m-d' },
+	]
+});

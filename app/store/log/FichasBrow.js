@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.FichasBrow",{extend:"Ext.data.Store",model:"Siace.model.log.FichaBrow",pageSize:500,proxy:{type:"general",url:"php/logistics_fichas_json_records.php"}});

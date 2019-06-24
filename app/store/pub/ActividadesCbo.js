@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.ActividadesCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.ActividadCbo",proxy:{type:"general",url:"php/public_actividades_json_records.php"}});

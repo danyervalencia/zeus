@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Pedido_WebE",{extend:"Ext.data.Model",fields:[{name:"pedweb_key",type:"string"},{name:"pedweb_fechaini",type:"date",dateFormat:"Y-m-d"},{name:"pedweb_fechafin",type:"date",dateFormat:"Y-m-d"},{name:"pedweb_dias",type:"int"},{name:"pedweb_observ",type:"string"},{name:"pedweb_estado",type:"int"}]});

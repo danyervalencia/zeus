@@ -1,0 +1,4 @@
+Ext.define('Siace.model.log.Cotizacion_DetPBSB',{extend:'Ext.data.Model',fields:[{name:'cotidet_item',type:'int'},{name:'cotidet_detalle',type:'string'},{name:'cotidet_cantid',type:'float'},{name:'cotidet_preuni',type:'float'},{name:'cotidet_pretot',type:'float'},
+{name:'coti_key',type:'string'},{name:'coti_fecha',type:'date',dateFormat:'Y-m-d'},{name:'coti_documento',type:'string'},{name:'doc_abrev',type:'string'},{name:'pers_key',type:'string'},{name:'pers_nombre',type:'string'},
+{name:'ped_documento',type:'string'},{name:'area_abrev',type:'string'},{name:'tarea_codigo',type:'string'},{name:'fftr_codigo',type:'string'},
+]});

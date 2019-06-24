@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.CboOpc",{extend:"Ext.form.field.ComboBox",alias:"widget.comp_cboopc",itemId:"opc_id",valueField:"opc_id",disabled:true,hidden:true});

@@ -1,0 +1,2 @@
+Ext.define("Siace.model.log.Orden_Det_Tarea_FftredLIE",{extend:"Ext.data.Model",fields:[{name:"ordendettareafte_key",type:"string"},{name:"ordendet_key",type:"string"},
+{name:"ingdet_cantid",type:"float"},{name:"ingdet_preuni",type:"float"},{name:"ingdet_pretot",type:"float"},{name:"tarea_codigo",type:"string"},{name:"bs_nombre",type:"string"},{name:"unimed_abrev",type:"string"},{name:"bs_codigo",type:"string"},{name:"espedet_codigo",type:"string"}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.PaisCbo",{extend:"Ext.data.Model",fields:[{name:"pais_id",type:"int"},{name:"pais_nombre",type:"string"},{name:"pais_abrev",type:"string"},{name:"pais_abrev02",type:"string"}]});

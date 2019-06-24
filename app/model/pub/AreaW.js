@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.AreaW",{extend:"Ext.data.Model",fields:[{name:"area_nombre",type:"string"},{name:"parent_nombre",type:"string"},{name:"loc_codename",type:"string"}]});

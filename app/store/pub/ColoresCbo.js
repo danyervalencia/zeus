@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.ColoresCbo',{extend:'Ext.data.Store',model:'Siace.model.pub.ColorCbo',pageSize:1500,proxy:{type:'general',url:'php/public_colores_json_records.php'}});

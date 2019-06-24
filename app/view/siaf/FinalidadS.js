@@ -1,0 +1,4 @@
+Ext.define("Siace.view.siaf.FinalidadS",{extend:"Siace.view.WindowSearch",alias:"widget.siaf_finas",width:600,items:[{xtype:"form",bodyPadding:2,frame:false,items:[
+{xtype:"container",layout:"hbox",margin:"0 0 5 0",items:[{xtype:"hiddenfield",itemId:"year",value:""},{xtype:"comppub_year_code"},{xtype:"comp_txttop",itemId:"fina_code",enableKeyEvents:true,fieldLabel:"&nbsp;Finalidad",maxLength:7,width:70},{xtype:"comp_txttop",itemId:"fina_nombre",enableKeyEvents:true,fieldLabel:"&nbsp;Descripción",maxLength:30,width:220}]},
+{xtype:"comp_grid",itemId:"grdSF",height:320,columns:[{dataIndex:"fina_code",text:"Finalidad",width:70},{dataIndex:"fina_nombre",text:"Descripción",width:1000}]},{xtype:"comp_pag",itemId:"pagSF"}
+]}]});

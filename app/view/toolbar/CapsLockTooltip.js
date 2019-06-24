@@ -1,0 +1,1 @@
+Ext.define("Siace.view.toolbar.CapsLockTooltip", {extend:"Ext.tip.QuickTip",alias:"widget.toolbar_capslocktooltip",anchor:"top",anchorOffset:60,width:270,dismissDelay:0,autoHide:false,title:"<div class='capslock'>"+trnslt.capslock_title+"</div>",html:"<div>"+trnslt.capslock_msg1+"</div><div></div>"+"<div>"+trnslt.capslock_msg2+"</div>"});

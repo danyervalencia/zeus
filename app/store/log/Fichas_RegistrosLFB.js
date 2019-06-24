@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Fichas_RegistrosLFB",{extend:"Ext.data.Store",model:"Siace.model.log.Ficha_RegistroLFB",pageSize:500,proxy:{type:"general",url:"php/logistics_fichas_registros_json_records.php"}});

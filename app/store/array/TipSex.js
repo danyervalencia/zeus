@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.TipSex",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"tipsex_id",type:"int"},{name:"tipsex_nombre",type:"string"},{name:"tipsex_abrev",type:"string"}],data:[["0","",""],["1001","Masculino","M"],["1002","Femenino","F"]]});

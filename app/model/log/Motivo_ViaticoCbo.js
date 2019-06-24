@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Motivo_ViaticoCbo",{extend:"Ext.data.Model",fields:[{name:"motviat_id",type:"int"},{name:"motviat_nombre",type:"string"},{name:"motviat_abrev",type:"string"}]});

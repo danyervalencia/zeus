@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Unidad_EjecutoraCbo",{extend:"Ext.data.Model",fields:[{name:"unieje_key",type:"string"},{name:"unieje_nombre",type:"string"},{name:"unieje_abrev",type:"string"}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.CompraW",{extend:"Ext.data.Model",fields:[{name:"comp_fecha",type:"date",dateFormat:"Y-m-d"},{name:"comp_monto",type:"float",convert:null},{name:"comp_documento",type:"string"},{name:"tiporden_nombre",type:"string"},{name:"fuefin_codename",type:"string"}]});

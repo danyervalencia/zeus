@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnQuery',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnQuery',itemId:'btnQuery',disabled:true,iconCls:'icon_Query',text:'Consulta'});

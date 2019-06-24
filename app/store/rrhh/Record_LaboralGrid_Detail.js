@@ -1,0 +1,1 @@
+Ext.define("Siace.store.rrhh.Record_LaboralGrid_Detail",{extend:"Ext.data.Store",model:"Siace.model.rrhh.Record_LaboralGrid_Detail",pageSize:500,proxy:{type:"general",url:"php/rrhh_record_laboral_json_records.php"}});

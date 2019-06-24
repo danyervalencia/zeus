@@ -1,0 +1,1 @@
+Ext.define('Siace.model.log.FaseCbo',{extend:'Ext.data.Model',fields:[{name:'fase_id',type:'int'},{name:'fase_nombre',type:'string'},{name:'fase_abrev',type:'string'}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.Sub_CuentaB",{extend:"Ext.data.Store",model:"Siace.model.siaf.Sub_CuentaB",pageSize:500,proxy:{type:"general",url:"php/siaf_sub_cuenta_json_records.php"}});

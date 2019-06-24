@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.DocFase",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"doc_id",type:"int"},{name:"doc_nombre",type:"string"}],data:[["201","Nota Presupuestal"],["501","Requerimiento"],["504","Ajuste Requerimiento"],["507","Solicitud Viáticos"]]});

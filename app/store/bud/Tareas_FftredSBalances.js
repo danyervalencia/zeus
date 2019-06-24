@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Tareas_FftredSBalances",{extend:"Ext.data.Store",model:"Siace.model.bud.Tarea_FftredSBalance",pageSize:500,proxy:{type:"general",url:"php/budget_tareas_fftred_json_records.php"}});

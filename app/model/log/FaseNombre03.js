@@ -1,0 +1,1 @@
+Ext.define('Siace.model.log.FaseNombre03',{extend:'Ext.data.Model',fields:[{name:'fase_id',type:'int'},{name:'fase_nombre03',type:'string'}]});

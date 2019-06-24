@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.CotizacionesPPB',{extend:'Ext.data.Store',model:'Siace.model.log.CotizacionPPB',pageSize:500,proxy:{type:'general',url:'php/logistics_cotizaciones_json_records.php'}});

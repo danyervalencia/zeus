@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.DatoFecha",{extend:"Siace.view.comp.Dato",alias:"widget.comp_datofecha",fieldCls:"df00104",fieldLabel:"Fecha",labelClsExtra:"lbl00101",padding:"-4 0 -2 0",renderer:Ext.util.Format.dateRenderer("d/m/Y"),submitValue:false});

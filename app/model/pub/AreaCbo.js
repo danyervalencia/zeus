@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.AreaCbo',{extend:'Ext.data.Model',fields:[{name:'area_key',type:'string'},{name:'area_nombre',type:'string'},{name:'area_abrev',type:'string'}]});

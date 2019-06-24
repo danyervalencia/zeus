@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.Proyecto_SnipS",{extend:"Ext.data.Store",model:"Siace.model.siaf.Proyecto_SnipS",pageSize:500,proxy:{type:"general",url:"php/siaf_proyecto_snip_json_records.php"}});

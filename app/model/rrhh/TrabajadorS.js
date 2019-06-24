@@ -1,0 +1,1 @@
+Ext.define("Siace.model.rrhh.TrabajadorS",{extend:"Ext.data.Model",fields:[{name:"trabj_key",type:"string"},{name:"indiv_dni",type:"string"},{name:"indiv_apenom",type:"string"},{name:"tipdocident_abrev",type:"string"},{name:"carg_nombre",type:"string"}]});

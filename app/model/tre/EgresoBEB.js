@@ -1,0 +1,1 @@
+Ext.define('Siace.model.tre.EgresoBEB',{extend:'Ext.data.Model',fields:[{name:'egre_key',type:'string'},{name:'egre_fecha',type:'date',dateFormat:'Y-m-d'},{name:'egre_monto',type:'float'},{name:'egre_documento',type:'string'},{name:'cheq_nro',type:'string'},{name:'cuebanc_nro',type:'string'}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Bien_Serv_Clase_ComplementarioE",{extend:"Ext.data.Model",fields:[{name:"bsccompl_key",type:"string"},{name:"bsc_id",type:"int"},{name:"bsccompl_orden",type:"int"},{name:"bsccompl_fixed",type:"int"},{name:"bsccompl_observ",type:"string"},{name:"bsccompl_estado",type:"int"},{name:"compl_key",type:"string"}]});

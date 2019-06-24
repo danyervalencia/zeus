@@ -1,0 +1,6 @@
+Ext.define("Siace.controller.log.PedBC",{extend:"Ext.app.Controller",
+lpb_sc:function(mod,r){if(r.length==1){var _pan=mod.view.up("log_pedbc");var _p=_pan.down("#pan");var _d=r[0].data;var _fg=_d.ped_flga==98?true:"";var _fi=_d.fase_id*1;var _lg=_d.usur_login;var _511=_d.cantid_doc511;
+	fext_SDO(_p,"btnModify","",2,_fg);fext_SDO(_p,"btnEttr","",5001,_fg);fext_SDO(_p,"btnQuery","",3,_fg);fext_SDO(_p,"btnDet","",59,_fg);fext_SDO(_p,"btnAttach","",59,_fg||_d.pedettr_file==""?true:"");fext_SDO(_p,"btnFases","",5002,_fg);fext_SDO(_p,"btnPrinter","",8,_fg||_fi<151?true:"");fext_SDO(_p,"btnAdd","",5006,_fg||_fi<151?true:"");fext_SDO(_p,"btnSolicitud","",5009,_fg||_fi<151?true:"");fext_SDO(_p,"btnReject","",45,_fg||_fi<151?true:"");fext_CC("log.PedidosBC").lpbc_tabsClean(_pan,false,_fi,_511);
+	Ext.Ajax.request({method:"POST",url:"php/logistics_pedidos_json_records.php",params:{xxPed_key:_d.ped_key,xxType_record:"win",xxOrder_by:"ped_key",ssNO_USK:"NoT",vs:fext_JE(fextpub_sessVar())},success:function(resp,opt){var _res=fext_DJ("",resp);var _md=fext_CM("log.PedidoW");if(_res.success&&_res.data.length==1){_md.set(_res.data[0]);}fext_LR(_pan,_md,"tabLPD");fext_LR(_pan,_md,"tabLPW");fext_LR(_pan,_md,"tabLC");fext_LR(_pan,_md,"tabLO");}});
+}}
+});

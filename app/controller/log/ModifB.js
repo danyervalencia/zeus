@@ -1,0 +1,6 @@
+Ext.define("Siace.controller.log.ModifB",{extend:"Ext.app.Controller",
+lmb_sc:function(mod,r){if(r.length==1){var _pan=mod.view.up("log_modifb");var _p=_pan.down("#panLM");var _vs=fextpub_sessVar();var _d=r[0].data;var _fg=_d.modif_flga==98?true:"";var _fi=_d.fase_id;var _me=_d.modif_estado;
+	fext_SDO(_p,"btnQuery","",3,_fg);fext_SDO(_p,"btnAnnular","",10,_fg);fext_SDO(_p,"btnVobo","",41,_fg||_fi==211?true:"");fext_SDO(_p,"btnReject","",45,_fg||_fi!=211||_me!=2?true:"");fext_SDO(_p,"btnFases","",5002,_fg);fext_SDO(_p,"btnPrinter","",8,_fg);fext_CC("log.ModificacionesB").lmb_tabsClean(_pan,false);
+	Ext.Ajax.request({method:"POST",url:"php/logistics_modificaciones_json_records.php",params:{xxModif_key:_d.modif_key,xxType_record:"win",xxOrder_by:"modif_key",ssNO_USK:"NoT",vs:fext_JE(fextpub_sessVar())},success:function(resp,opt){var _res=fext_DJ("",resp);var _mod=fext_CM("log.ModificacionW");if(_res.success&&_res.data.length==1){_mod.set(_res.data[0]);}fext_LR(_pan.down("#tabLMD"),_mod);fext_LR(_pan.down("#tabLMTF"),_mod);}});
+}}
+});

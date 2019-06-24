@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Metas_FftredBPB",{extend:"Ext.data.Store",model:"Siace.model.bud.Meta_FftredBPB",pageSize:500,proxy:{type:"general",url:"php/budget_metas_fftred_json_records.php"}});

@@ -1,0 +1,1 @@
+Ext.define('Siace.model.log.Fase_AccesoUsursess',{extend:'Ext.data.Model',fields:[{name:'faseacce_key',type:'string'},{name:'fase_nombre',type:'string'},{name:'fase_nombre03',type:'string'},{name:'fase_key',type:'string'}]});

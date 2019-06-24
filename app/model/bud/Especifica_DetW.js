@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Especifica_DetW",{extend:"Ext.data.Model",fields:[{name:"espedet_nombre",type:"string"},{name:"espedet_codigo",type:"string"},{name:"gene_codename",type:"string"},{name:"subgene_codename",type:"string"},{name:"subgenedet_codename",type:"string"},{name:"espe_codename",type:"string"}]});

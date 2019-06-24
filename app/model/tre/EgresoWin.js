@@ -1,0 +1,1 @@
+Ext.define("Siace.model.tre.EgresoWin",{extend:"Ext.data.Model",fields:[{name:"egre_key",type:"string"},{name:"egre_fecha",type:"date",dateFormat:"Y-m-d"},{name:"egre_documento",type:"string"},{name:"area_nombre",type:"string"},{name:"secfunc_codename",type:"string"},{name:"tarea_codename",type:"string"},{name:"fuefin_codename",type:"string"}]});

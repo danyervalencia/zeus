@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Bienes_Servs_Especificas_Det',{extend:'Ext.data.Store',model:'Siace.model.pub.Bien_Serv_Especifica_Det',proxy:{type:'general',url:'php/public_bienes_servs_especificas_det_json_records.php'}});

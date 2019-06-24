@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Area_nombre",{extend:"Siace.view.comp.Cbo",alias:"widget.comppub_area_nombre",itemId:"area_key",valueField:"area_key",displayField:"area_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{area_nombre}&nbsp;</div></tpl>",fieldLabel:"U. Orgánica",width:"100%"});

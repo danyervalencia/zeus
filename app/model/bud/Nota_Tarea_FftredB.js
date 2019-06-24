@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Nota_Tarea_FftredB",{extend:"Ext.data.Model",fields:[{name:"notatareafte_item",type:"int"},{name:"notatareafte_subitem",type:"int"},{name:"notatareafte_egreso",type:"float"},{name:"notatareafte_ingreso",type:"float"},{name:"tarea_codigo",type:"string"},{name:"espedet_codigo",type:"string"},{name:"espedet_nombre",type:"string"}]});

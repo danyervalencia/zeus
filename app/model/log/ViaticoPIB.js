@@ -1,0 +1,4 @@
+Ext.define('Siace.model.log.ViaticoPIB',{extend:'Ext.data.Model',fields:[
+{name:'viat_key',type:'string'},{name:'viat_flga',type:'string'},{name:'viat_fecha',type:'date',dateFormat:'Y-m-d'},{name:'viat_monto',type:'float'},{name:'viat_rendido',type:'float',convert:null},{name:'expe_nro',type:'int',convert:null},{name:'viat_documento',type:'string'},{name:'viat_fechaini',type:'date',dateFormat:'Y-m-d'},{name:'viat_horaini',type:'string'},{name:'viat_fechafin',type:'date',dateFormat:'Y-m-d'},{name:'viat_horafin',type:'string'},
+{name:'area_abrev',type:'string'},{name:'tarea_codigo',type:'string'},{name:'fftr_codigo',type:'string'},{name:'ocup_nombre',type:'string'},{name:'pais_abrev03',type:'string'},{name:'dpto_abrev',type:'string'},{name:'motviat_nombre',type:'string'}
+]});

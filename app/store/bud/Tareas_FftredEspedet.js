@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Tareas_FftredEspedet",{extend:"Ext.data.Store",model:"Siace.model.bud.Tarea_FftredEspedet",proxy:{type:"general",url:"php/budget_tareas_fftred_json_records_espedet.php"}});

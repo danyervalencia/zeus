@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.BtnNew',{extend:'Siace.view.comp.Btn',alias:'widget.comp_btnNew',itemId:'btnNew',disabled:true,iconCls:'icon_New',text:'Nuevo'});

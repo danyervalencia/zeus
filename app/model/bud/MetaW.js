@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.MetaW",{extend:"Ext.data.Model",fields:[{name:"year_id",type:"string"},{name:"func_codename",type:"string"},{name:"prog_codename",type:"string"},{name:"subprog_codename",type:"string"},{name:"actproy_codename",type:"string"},{name:"comp_codename",type:"string"},{name:"fina_codename",type:"string"}]});

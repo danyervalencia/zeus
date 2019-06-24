@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Doc_nombre",{extend:"Siace.view.comp.Cbo",alias:"widget.comppub_doc_nombre",itemId:"doc_id",name:"doc_id",valueField:"doc_id",displayField:"doc_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{doc_nombre}&nbsp;</div></tpl>",fieldLabel:"Documento"});

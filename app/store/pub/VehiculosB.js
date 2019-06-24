@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.VehiculosB",{extend:"Ext.data.Store",model:"Siace.model.pub.VehiculoB",pageSize:500,proxy:{type:"general",url:"php/public_vehiculos_json_records.php"}});

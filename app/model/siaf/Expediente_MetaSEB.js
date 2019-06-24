@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.Expediente_MetaSEB",{extend:"Ext.data.Model",fields:[{name:"secfunc_code",type:"string"},{name:"monto",type:"float"},{name:"secfunc_nombre",type:"string"},{name:"secfunc_codigo",type:"string"},{name:"espedet_codigo",type:"string"},{name:"espedet_nombre",type:"string"}]});

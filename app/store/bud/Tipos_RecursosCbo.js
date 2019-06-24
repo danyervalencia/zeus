@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Tipos_RecursosCbo",{extend:"Ext.data.Store",model:"Siace.model.bud.Tipo_RecursoCbo",proxy:{type:"general",url:"php/budget_tipos_recursos_json_records.php"}});

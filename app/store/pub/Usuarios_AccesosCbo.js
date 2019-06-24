@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Usuarios_AccesosCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.Usuario_AccesoCbo",pageSize:500,proxy:{type:"general",url:"php/public_usuarios_accesos_json_records.php"}});

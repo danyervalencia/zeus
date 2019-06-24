@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Usuario_AccesoCbo",{extend:"Ext.data.Model",fields:[{name:"usuracce_key",type:"string"},{name:"indiv_apenom",type:"string"},{name:"indiv_dniname",type:"string"}]});

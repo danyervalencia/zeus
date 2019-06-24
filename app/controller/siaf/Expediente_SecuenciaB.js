@@ -1,0 +1,10 @@
+Ext.define("Siace.controller.siaf.Expediente_SecuenciaB",{extend:"Ext.app.Controller",views:["siaf.Expediente_SecuenciaB"],
+init:function(application){this.control({"bud_expesecuenb":{beforerender:this.sesb_BR}});},
+sesb_BR:function(comp,opt){var _frm=comp.down("form");var _vs=fextpub_sessVar();var _me=this;var _tx=fext_GV(comp,"tablex");
+if(_tx==2020){_frm.load({method:"POST",url:"php/budget_egresos_json_records.php",waitMsg:"Loading...",params:{xxEgre_key:comp.getCK(),xxType_record:"winSiaf",ssNO_USK:"NoT",vs:fext_JE(_vs)},success:function(frm,act){try{var _mod=fext_CM("log.OrdenWSiaf"); var _res=fext_DJ(act); if(_res.data[0]){_mod.set(_res.data[0]);_frm.loadRecord(_mod);_me.sesb_Fases(comp,_res.data[0].year_id);}}catch(x){fext_MsgC(x.Message);}},failure:function(frm,act){fext_MsgFL(act);}});}
+else if(_tx==5030){_frm.load({method:"POST",url:"php/logistics_ordenes_json_records.php",waitMsg:"Loading...",params:{xxOrden_key:comp.getCK(),xxType_record:"winSiaf",ssNO_YEAR:"NoT",ssNO_USK:"NoT",vs:fext_JE(_vs)},success:function(frm,act){try{var _mod=fext_CM("log.OrdenWSiaf");var _res=fext_DJ(act);if(_res.data[0]){_mod.set(_res.data[0]);_frm.loadRecord(_mod);_me.sesb_Fases(comp,_res.data[0].year_id);}}catch(x){fext_MsgC(x.Message);}},failure:function(frm,act){fext_MsgFL(act);}});}
+else if(_tx==5060){_frm.load({method:"POST",url:"php/logistics_viaticos_json_records.php",waitMsg:"Loading...",params:{xxViat_key:comp.getCK(),xxType_record:"winSiaf",ssNO_YEAR:"NoT",ssNO_USK:"NoT",vs:fext_JE(_vs)},success:function(frm,act){try{var _mod=fext_CM("log.OrdenWSiaf");var _res=fext_DJ(act);if(_res.data[0]){_mod.set(_res.data[0]);_frm.loadRecord(_mod);_me.sesb_Fases(comp,_res.data[0].year_id);}}catch(x){fext_MsgC(x.Message);}},failure:function(frm,act){fext_MsgFL(act);}});}},
+sesb_Fases:function(poC,pcYI){var _str=fext_CS("siaf.Expedientes_SecuenciasB");fext_BSG(poC,_str);fext_BSP(poC,_str);
+	_str.on("beforeload",function(str,oper,opt){fext_PSEP(str,["xxYear_id","xxExpe_nro","xxType_record"],[pcYI,"","grd"],poC,["","expe_nro",""]);});_str.load();
+}
+});

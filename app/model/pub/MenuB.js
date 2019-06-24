@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.MenuB",{extend:"Ext.data.Model",fields:[{name:"menu_id",type:"int"},{name:"menu_nombre",type:"string"},{name:"submenu_nombre",type:"string"},{name:"rcol",type:"string"}]});

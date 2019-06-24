@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Bien_Serv_FamiliaB",{extend:"Ext.data.Model",fields:[{name:"bsf_id",type:"int"},{name:"bsf_nombre",type:"string"},{name:"tipbsf_id",type:"int"},{name:"bsf_codigo",type:"string"},{name:"tipbsf_abrev",type:"string"}]});

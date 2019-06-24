@@ -1,0 +1,1 @@
+Ext.define('Siace.store.array.bud.TipEspeDet',{extend:'Ext.data.ArrayStore',autoLoad:true,fields:[{name:'tipespedet_id',type:'int'},{name:'tipespedet_code',type:'string'},{name:'tipespedet_nombre',type:'string'}],data:[['2031','1','Funcionamiento'],['2032','2','Inversiones'],['2033','3','Mantenimiento']]});

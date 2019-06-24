@@ -1,0 +1,9 @@
+Ext.define("Siace.view.pub.Personas_FonosE",{extend:"Siace.view.WindowEdit",alias:"widget.pub_persfonoe",layout:{type:"vbox"},width:450,items:[
+{xtype:"panel",itemId:"panPP",width:"100%",items:[{xtype:"form",border:false,bodyPadding:"4 4 4 6",defaults:{width:"100%"},layout:{type:"vbox"},width:"100%",items:[{xtype:"comp_tooltop",defaults:{labelWidth:55},layout:"vbox",items:[{xtype:"comp_dato",name:"pers_ruc",fieldLabel:"Registro"},{xtype:"comp_dato",name:"pers_nombre",fieldLabel:"Rz. Social"}]}]}]},
+{xtype:"panel",margin:"0 0 0 0",width:"100%",items:[{xtype:"form",itemId:"frmPPF",bodyPadding:"4 8 8 8",border:false,defaults:{labelWidth:65},width:"100%",items:[{xtype:"hiddenfield",itemId:"pers_key",name:"pers_key"},
+	{xtype:"comp_cbo",itemId:"tipfono_id",name:"tipfono_id",valueField:"tabgen_id",displayField:"tabgen_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Tipo",width:250},
+	{xtype:"comp_cbo",itemId:"compfono_id",name:"compfono_id",valueField:"tabgen_id",displayField:"tabgen_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Compañia",width:250},
+	{xtype:"container",layout:"hbox",margin:"0 0 5 0",width:"100%",items:[{xtype:"comp_txt",itemId:"persfono_nro",name:"persfono_nro",fieldLabel:"Número",allowBlank:false,labelWidth:65,maxLength:10,width:250},{xtype:"label",itemId:"lblPersfono_estado",cls:"lbl00003",padding:"5 0 0 0",text:"Habilitado \xa0 ",flex:1},{xtype:"checkbox",itemId:"persfono_estado",name:"_persfono_estado",checked:true,width:13}]},
+	{xtype:"comp_txtarea",itemId:"persfono_observ",name:"persfono_observ",fieldLabel:"Comentario",labelWidth:65,anchor:"100%"}
+]}]}
+]});

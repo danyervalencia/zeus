@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Pedidos_SecuenciasEnv",{extend:"Ext.data.Store",model:"Siace.model.log.Pedido_SecuenciaEnv",pageSize:500,proxy:{type:"general",url:"php/logistics_pedidos_secuencias_json_records.php"}});

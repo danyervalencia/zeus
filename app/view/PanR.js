@@ -1,0 +1,1 @@
+Ext.define("Siace.view.PanR",{extend:"Ext.panel.Panel",layout:{type:"border"},__mi:"",setMI:function(pcMI){this.__mi=pcMI;},getMI:function(){return this.__mi;},__pf:null,setPF:function(pcPF){this.__pf=pcPF;},getPF:function(){return this.__pf;},__pm:null,setPM:function(pcPM){this.__pm=pcPM;},getPM:function(){return this.__pm;}});

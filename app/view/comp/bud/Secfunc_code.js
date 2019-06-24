@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Secfunc_code",{extend:"Siace.view.comp.CboTop",alias:"widget.compbud_secfunc_code",itemId:"meta_id",valueField:"meta_id",displayField:"secfunc_code",tpl:"<tpl for='.'><div class='x-boundlist-item'>{secfunc_code}&nbsp;&nbsp; {secfunc_nombre}</div></tpl>",fieldLabel:"&nbsp;S.F.",listConfig:{cls:"item00001",minWidth:400},width:60});

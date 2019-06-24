@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tarea_FftredFuefin",{extend:"Ext.data.Model",fields:[{name:"tareafte_key",type:"string"},{name:"fuefin_id",type:"int"},{name:"fuefin_code",type:"string"},{name:"fuefin_nombre",type:"string"},{name:"fuefin_codename",type:"string"}]});

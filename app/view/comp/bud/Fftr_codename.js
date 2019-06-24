@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Fftr_codename",{extend:"Siace.view.comp.Cbo",alias:"widget.compbud_fftr_codename",itemId:"fftr_id",valueField:"fftr_id",displayField:"fftr_codename",tpl:"<tpl for='.'><div class='x-boundlist-item'>{fftr_codename}&nbsp;</div></tpl>",fieldLabel:"Rubro",width:"100%"});

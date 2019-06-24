@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.Sub_CuentaB",{extend:"Ext.data.Model",fields:[{name:"subcta_id",type:"int"},{name:"year_id",type:"int"},{name:"may_code",type:"string"},{name:"subcta_code",type:"string"},{name:"subcta_nombre",type:"string"}]});

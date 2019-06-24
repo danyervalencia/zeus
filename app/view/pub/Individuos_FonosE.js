@@ -1,0 +1,8 @@
+Ext.define("Siace.view.pub.Individuos_FonosE",{extend:"Siace.view.WindowEdit",alias:"widget.pub_indivfonoe",width:450,items:[{xtype:"form",bodyPadding:8,border:true,width:"100%",defaults:{labelWidth:65},items:[{xtype:"hiddenfield",itemId:"indiv_key",name:"indiv_key"},
+{xtype:"displayfield",itemId:"indiv_dni",fieldLabel:"Registro",fieldCls:"df00104",labelClsExtra:"lbl00101",margin:"-5 0 0 0", submitValue:false,width:"100%"},
+{xtype:"displayfield",itemId:"indiv_apenom",fieldLabel:"Nombre",fieldCls:"df00104",labelClsExtra:"lbl00101",margin:"-5 0 2 0",submitValue:false,width:"100%"},
+{xtype:"comp_cbo",itemId:"tipfono_id",name:"tipfono_id",valueField:"tabgen_id",displayField:"tabgen_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Tipo",width:250},
+{xtype:"comp_cbo",itemId:"compfono_id",name:"compfono_id",valueField:"tabgen_id",displayField:"tabgen_nombre",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,fieldLabel:"Compañia",width:250},
+{xtype:"container",layout:"hbox",margin:"0 0 5 0",width:"100%",items:[{xtype:"comp_txt",itemId:"indivfono_nro",name:"indivfono_nro",fieldLabel:"Número",allowBlank:false,labelWidth:65,maxLength:10,width:250},{xtype:"label",itemId:"lblIndivfono_estado",cls:"lbl00003",padding:"5 0 0 0",text:"Habilitado \xa0 ",flex:1},{xtype:"checkbox",itemId:"indivfono_estado",name:"_indivfono_estado",checked:true,width:13}]},
+{xtype:"comp_txtarea",itemId:"indivfono_observ",name:"indivfono_observ",fieldLabel:"Comentario",labelWidth:65,anchor:"100%"}
+]}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.store.tre.Egresos_Tareas_FftredTEB",{extend:"Ext.data.Store",model:"Siace.model.tre.Egreso_Tarea_FftredTEB",proxy:{type:"general",url:"php/treasury_egresos_tareas_fftred_json_records.php"}});

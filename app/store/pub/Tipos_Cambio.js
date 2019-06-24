@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Tipos_Cambio',{extend:'Ext.data.Store',model:'Siace.model.pub.Tipo_Cambio',proxy:{type:'general',url:'php/public_tipos_cambio_json_records.php'}});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Persona_FonoPPB",{extend:"Ext.data.Model",fields:[{name:"persfono_key",type:"string"},{name:"persfono_nro",type:"string"},{name:"persfono_estado",type:"int"},{name:"tipfono_nombre",type:"string"},{name:"compfono_nombre",type:"string"}]});

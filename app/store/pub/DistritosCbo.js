@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.DistritosCbo',{extend:'Ext.data.Store',model:'Siace.model.pub.DistritoCbo',proxy:{type:'general',url:'php/public_distritos_json_records.php'}});

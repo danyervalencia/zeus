@@ -1,0 +1,1 @@
+Ext.define('Siace.store.bud.Fuentes_FinanciamientoCbo',{extend:'Ext.data.Store',model:'Siace.model.bud.Fuente_FinanciamientoCbo',proxy:{type:'general',url:'php/budget_fuentes_financiamiento_json_records.php'}});

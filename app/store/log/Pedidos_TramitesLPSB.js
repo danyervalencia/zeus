@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Pedidos_TramitesLPSB",{extend:"Ext.data.Store",model:"Siace.model.log.Pedido_TramiteLPSB",pageSize:500,proxy:{type:"general",url:"php/logistics_pedidos_tramites_json_records.php"}});

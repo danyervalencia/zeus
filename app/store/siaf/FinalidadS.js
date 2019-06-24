@@ -1,0 +1,1 @@
+Ext.define("Siace.store.siaf.FinalidadS",{extend:"Ext.data.Store",model:"Siace.model.siaf.FinalidadS",pageSize:500,proxy:{type:"general",url:"php/siaf_finalidad_json_records.php"}});

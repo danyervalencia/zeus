@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Bien_Serv_Clase_MarcaPMB',{extend:'Ext.data.Model',fields:[{name:'bscmarc_key',type:'string'},{name:'bsc_id',type:'id'},{name:'bscmarc_estado',type:'int'},{name:'bsc_nombre',type:'string'},{name:'bsc_codigo',type:'string'}]});

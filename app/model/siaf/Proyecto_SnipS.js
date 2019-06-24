@@ -1,0 +1,1 @@
+Ext.define("Siace.model.siaf.Proyecto_SnipS",{extend:"Ext.data.Model",fields:[{name:"proysnip_key",type:"string"},{name:"proysnip_code",type:"string"},{name:"proysnip_nombre",type:"string"}]});

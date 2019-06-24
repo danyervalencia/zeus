@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Menus_OpcionesPMB",{extend:"Ext.data.Store",model:"Siace.model.pub.Menu_OpcionB",pageSize:500,proxy:{type:"general",url:"php/public_menus_opciones_json_records.php"}});

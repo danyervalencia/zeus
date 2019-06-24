@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.AlmacenNea",{extend:"Ext.data.Model",fields:[{name:"alma_key",type:"string"},{name:"alma_nombre",type:"string"},{name:"alma_abrev",type:"string"},{name:"alma_id",type:"int"}]});

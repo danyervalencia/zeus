@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Ordenes_DetE",{extend:"Ext.data.Store",model:"Siace.model.log.Orden_DetE",pageSize:1000,proxy:{type:"general",url:"php/logistics_ordenes_det_json_records.php"}});

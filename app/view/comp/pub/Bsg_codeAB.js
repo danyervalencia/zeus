@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.pub.Bsg_codeAB",{extend:"Siace.view.comp.CboTop",alias:"widget.comppub_bsg_codeab",itemId:"bsg_id",valueField:"bsg_id",displayField:"bsg_code",tpl:"<tpl for='.'><div class='x-boundlist-item'>{bsg_codename}&nbsp;</div></tpl>",fieldLabel:"&nbsp;Grupo",listConfig:{cls:"item00001",minWidth:550},width:45});

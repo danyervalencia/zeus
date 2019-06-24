@@ -1,0 +1,1 @@
+Ext.define('Siace.store.log.Motivos_ViaticosCbo',{extend:'Ext.data.Store',model:'Siace.model.log.Motivo_ViaticoCbo',proxy:{type:'general',url:'php/logistics_motivos_viaticos_json_records.php'}});

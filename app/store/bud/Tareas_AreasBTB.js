@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Tareas_AreasBTB",{extend:"Ext.data.Store",model:"Siace.model.bud.Tarea_AreaBTB",pageSize:500,proxy:{type:"general",url:"php/budget_tareas_areas_json_records.php"}});

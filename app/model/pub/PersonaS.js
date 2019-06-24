@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.PersonaS",{extend:"Ext.data.Model",fields:[{name:"pers_key",type:"string"},{name:"pers_ruc",type:"string"},{name:"pers_nombre",type:"string"},{name:"tipdocident_abrev",type:"string"}]});

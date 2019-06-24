@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Bien_Serv_Clase_MarcaCbo",{extend:"Ext.data.Model",fields:[{name:"marc_key",type:"string"},{name:"marc_id",type:"int"},{name:"marc_nombre",type:"string"},{name:"marc_abrev",type:"string"}]});

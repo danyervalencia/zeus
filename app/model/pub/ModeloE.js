@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.ModeloE",{extend:"Ext.data.Model",fields:[{name:"mod_key",type:"string"},{name:"mod_nombre",type:"string"},{name:"mod_abrev",type:"string"},{name:"mod_observ",type:"string"},{name:"mod_foto",type:"string"},{name:"mod_file",type:"string"},{name:"mod_estado",type:"int"},{name:"mod",type:"string"},{name:"marc_key",type:"string"}]});

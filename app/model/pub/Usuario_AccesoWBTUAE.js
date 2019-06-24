@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Usuario_AccesoWBTUAE',{extend:'Ext.data.Model',fields:[{name:'usuracce_id',type:'int'},{name:'usuracce_fecha',type:'date',dateFormat:'Y-m-d'},{name:'indiv_apenom',type:'string'},{name:'unieje_codename',type:'string'},{name:'area_nombre',type:'string'},{name:'cargusur_nombre',type:'string'}]});

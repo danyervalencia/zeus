@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Pedido_EttrAttach",{extend:"Ext.data.Model",fields:[{name:"pedettr_key",type:"string"},{name:"pedettr_file1",type:"string"},{name:"pedettr_file2",type:"string"}]});

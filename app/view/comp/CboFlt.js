@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.CboFlt",{extend:"Siace.view.comp.CboTop",alias:"widget.comp_cboflt",itemId:"filter",store:"array.FFAB",valueField:"ff",displayField:"code",tpl:"<tpl for='.'><div class='x-boundlist-item'>{code}&nbsp;</div></tpl>",fieldLabel:"&nbsp;Filtro",listConfig:{cls:"item00001",minWidth:50},value:"",width:50});

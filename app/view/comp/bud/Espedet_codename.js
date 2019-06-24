@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.bud.Espedet_codename",{extend:"Siace.view.comp.Cbo",alias:"widget.compbud_espedet_codename",itemId:"espedet_id",valueField:"espedet_id",displayField:"espedet_codename",tpl:"<tpl for='.''><div class='x-boundlist-item'>{espedet_codename}&nbsp;</div></tpl>",editable:true,fieldLabel:"Clasificador",width:"100%"});

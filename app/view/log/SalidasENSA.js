@@ -1,0 +1,9 @@
+Ext.define("Siace.view.log.SalidasENSA",{extend:"Siace.view.WinS",alias:"widget.log_salensa",requires:["Siace.view.comp.bud.ProyS"],title:"Búsqueda de Bienes en Almacén ::.",width:850,items:[{xtype:"panel",items:[
+{xtype:"container",layout:"hbox",margin:"0 0 4 2",items:[{xtype:"hiddenfield",itemId:"alma_key"},
+	{xtype:"comppub_bst_code",value:1,hidden:true},{xtype:"comppub_bsg_codeab"},{xtype:"comppub_bsc_codeab"},{xtype:"comppub_bsf_codeab"},{xtype:"comp_txttop",itemId:"bs_nombre",name:"bs_nombre",enableKeyEvents:true,fieldLabel:"&nbsp;Descripción",maxLength:50,width:250},
+	,{xtype:"comp_cbotop",itemId:"tipnea_id",valueField:"tabgen_id",displayField:"tabgen_nombre",fieldLabel:"&nbsp;Tipo de ingreso",tpl:"<tpl for='.'><div class='x-boundlist-item'>{tabgen_nombre}&nbsp;</div></tpl>",editable:true,width:150},{xtype:"compbud_fuefin_code",editable:true},{xtype:"compbud_proys",fieldLabel:"&nbsp;Proyecto",labelAlign:"top",margin:"0"}
+]},
+{xtype:"comp_grid",itemId:"grd",height:350,columns:[{xtype:"rownumberer",width:25},{dataIndex:"bs_codigo",text:"Código",width:110},{dataIndex:"bs_nombre",text:"Descripción",width:345},{dataIndex:"unimed_abrev",text:"U.M.",width:60},{dataIndex:"stock",text:"Saldo",align:"right",renderer:fext_FN(3),width:90},{dataIndex:"preuni",text:"P.U.",align:"right",renderer:fext_FN(6),width:100},{dataIndex:"espedet_codigo",text:"Clasificador",width:95},{dataIndex:"documento",text:"NEA",width:80},{dataIndex:"_item",text:"Item",align:"right",width:35},{dataIndex:"fuefin_code",text:"Rb",width:35},{dataIndex:"proy_code",text:"Proyecto",width:70},{dataIndex:"secfunc_code",text:"Sec.Func.",width:75},{dataIndex:"referencia",text:"Referencia",width:100}]},{xtype:"comp_pag",itemId:"pag"}
+]}],
+__compBPS:"",setCompBPS:function(poComp){this.__compBPS=poComp;},getCompBPS:function(){return this.__compBPS;},
+});

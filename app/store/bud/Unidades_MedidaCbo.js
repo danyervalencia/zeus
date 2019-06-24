@@ -1,0 +1,1 @@
+Ext.define("Siace.store.bud.Unidades_MedidaCbo",{extend:"Ext.data.Store",model:"Siace.model.bud.Unidad_MedidaCbo",proxy:{type:"general",url:"php/budget_unidades_medida_json_records.php"}});

@@ -1,0 +1,3 @@
+Ext.define("Siace.model.rrhh.TrabajadorE",{extend:"Ext.data.Model",fields:[{name:"trabaj_key",type:"string"},{name:"tipplan_id",type:"int"},{name:"carg_id",type:"int"},{name:"trabj_fechaini",type:"date",dateFormat:"Y-m-d"},{name:"trabj_fechafin",type:"date",dateFormat:"Y-m-d"},{name:"trabj_observ",type:"string"},
+{name:"indiv_key",type:"string"},{name:"tipdocident_id",type:"int"},{name:"indiv_dni",type:"string"},{name:"indiv_apenom",type:"string"},{name:"area_key",type:"string"}
+]});

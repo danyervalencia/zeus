@@ -1,0 +1,4 @@
+Ext.define("Siace.controller.log.DonaE",{extend:"Ext.app.Controller",
+lde_add:function(btn){var _w=btn.up("window");fext_CC("pub.Bienes_ServsS");_w.setCompPBSS(fext_compSearch({cc:_w,os:_w.getCompPBSS(),v:"Siace.view.pub.Bienes_ServsS",tit:"Búsqueda Catálogo de Bienes y Servicios ::.",TRE:"ADD_DONACIONES"}));var _cc=_w.getCompPBSS();_cc.setBst_id(1);fext_SVI(_cc,"bst_id",false);},
+lde_sup:function(btn){var _w=btn.up("window");var _r=fext_grdSR(_w,"grdLDD");if(!_r){return false;}btn.disable();fext_GS(_w,"grdLDD").remove(_r);fext_CC("DonacionesE").lde_dmUpdate(_w,_r.data.notadet_pretot*(-1));}
+});

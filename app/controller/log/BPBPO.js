@@ -1,0 +1,6 @@
+Ext.define("Siace.controller.log.BPBPO",{extend:"Ext.app.Controller",
+lbpb_sc:function(mod,r){if(r.length==1){var _pan=mod.view.up("log_bpbpo");var _p=_pan.down("#pan");var _cbo=_p.down("#opc_id");var _d=r[0].data;var _cn=_d.certif_nro;var _ok=_d.orden_key;var _mk=_d.modif_key;var _img=(_cn*1>0&&_ok==""?"btnReject.png":"siaf.png");
+	fext_SDO(_p,"btnModify",_cbo,2);fext_SDO(_p,"btnCC",_cbo,5023);fext_SDO(_p,"btnBPDel",_cbo,5022,_cn*1>0?true:"");_p.down("#btnCertif").setIcon("resources/icons/"+_img);fext_SDO(_p,"btnCertif",_cbo,5028,_ok==""?"":true);fext_SDO(_p,"btnGO",_cbo,5025,_cn*1<=0||_ok!=""?true:"");fext_SDO(_p,"btnOrden",_cbo,5026,_ok==""?true:"");fext_CC("log.Buena_ProBPO").lbpbpo_tabsClean(_pan,false,_mk);
+	Ext.Ajax.request({method:"POST",url:"php/logistics_pedidos_json_records.php",params:{xxPed_key:_d.ped_key,xxType_record:"win",xxOrder_by:"ped_key",ssNO_USK:"NoT",vs:fext_JE(fextpub_sessVar())},success:function(resp,opt){var _res=fext_DJ("",resp);var _md=fext_CM("log.PedidoW");if(_res.success&&_res.data.length==1){_md.set(_res.data[0]);}fext_LR(_pan,_md,"tabLP");fext_LR(_pan,_md,"tabLC");fext_LR(_pan,_md,"tabLM");}});
+}}
+});

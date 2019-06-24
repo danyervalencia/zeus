@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Btn_imgSearch",{extend:"Ext.button.Button",alias:"widget.comp_btn_imgsearch",iconCls:"icon_Search_90",margin:"0 6 0 0"});

@@ -1,0 +1,4 @@
+Ext.define('Siace.model.log.Buena_Pro_Tarea_FftredCertifica',{extend:'Ext.data.Model',fields:[
+{name:'bptareafte_key',type:'string'},{name:'bptareafte_item',type:'int'},{name:'bptareafte_monto',type:'float'},{name:'bptareafte_percep',type:'float',convert:null},
+{name:'tareafte_key',type:'string'},{name:'tarea_key',type:'string'},{name:'fuefin_id',type:'int'},{name:'tiprecur_id',type:'int'},{name:'espedet_id',type:'int'},{name:'tarea_codigo',type:'string'},{name:'tarea_nombre',type:'string'},{name:'fftr_codigo',type:'string'},{name:'espedet_codigo',type:'string'},{name:'espedet_nombre',type:'string'}
+]});

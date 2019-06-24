@@ -1,0 +1,1 @@
+Ext.define("Siace.model.rrhh.CargoCbo",{extend:"Ext.data.Model",fields:[{name:"carg_id",type:"int"},{name:"carg_nombre",type:"string"},{name:"carg_abrev",type:"string"}]});

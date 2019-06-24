@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Bien_ServW",{extend:"Ext.data.Model",fields:[{name:"bs_nombre",type:"string"},{name:"bsg_codename",type:"string"},{name:"bsc_codename",type:"string"},{name:"bsf_codename",type:"string"}]});

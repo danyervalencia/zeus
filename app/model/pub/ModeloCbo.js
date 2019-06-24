@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.ModeloCbo",{extend:"Ext.data.Model",fields:[{name:"mod_key",type:"string"},{name:"mod_nombre",type:"string"},{name:"mod_abrev",type:"string"}]});

@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Usuario_Acceso_TablexCbo5040",{extend:"Ext.data.Model",fields:[{name:"alma_key",type:"string"},{name:"alma_nombre",type:"string"},{name:"alma_abrev",type:"string"},{name:"alma_parent",type:"int"}]});

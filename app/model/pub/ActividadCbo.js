@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.ActividadCbo',{extend:'Ext.data.Model',fields:[{name:'activ_key',type:'string'},{name:'activ_nombre',type:'string'},{name:'activ_abrev',type:'string'}]});

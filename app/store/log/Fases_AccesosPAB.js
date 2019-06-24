@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Fases_AccesosPAB",{extend:"Ext.data.Store",model:"Siace.model.log.Fase_AccesoPAB",pageSize:500,proxy:{type:"general",url:"php/logistics_fases_accesos_json_records.php"}});

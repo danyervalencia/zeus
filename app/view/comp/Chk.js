@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Chk",{extend:"Ext.form.field.Checkbox",alias:"widget.comp_chk",boxLabelAlign:"before",boxLabelCls:"box00001"});

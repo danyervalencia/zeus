@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Tipo_OrdenLCE14",{extend:"Ext.data.Model",fields:[{name:"tiporden_id",type:"int"},{name:"tiporden_nombre",type:"string"},{name:"tiporden_abrev",type:"string"},{name:"tablex",type:"int"},{name:"doc_id",type:"int"}]});

@@ -1,0 +1,38 @@
+Ext.define('Siace.model.treasury.Venta_Det', {
+	extend: 'Ext.data.Model',
+	idProperty: 'ventdet_id',
+
+	fields: [
+		{ name: 'ventdet_id', type: 'int' },
+		{ name: 'ventdet_key', type: 'string' },
+		{ name: 'vent_id', type: 'int' },
+		{ name: 'ventdet_item', type: 'int' },
+		{ name: 'bs_id', type: 'int' },
+		{ name: 'ventdet_desart', type: 'string' },
+		{ name: 'ventdet_cantid', type: 'float' },
+		{ name: 'ventdet_preuni', type: 'float' },
+		{ name: 'ventdet_dscto_clase', type: 'string' },
+		{ name: 'ventdet_dscto_type', type: 'string' },
+		{ name: 'ventdet_dscto_real', type: 'float' },
+		{ name: 'ventdet_dscto', type: 'float' },
+		{ name: 'ventdet_pretot', type: 'float' },
+		{ name: 'ventdet_inafecto', type: 'string' },
+		{ name: 'ref_id', type: 'int' },
+		{ name: 'vent_key', type: 'string' },
+		{ name: 'vent_flga', type: 'string' },
+		{ name: 'vent_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'vent_documento', type: 'string' },
+		{ name: 'bs_key', type: 'string' },
+		{ name: 'bs_nombre', type: 'string' },
+		{ name: 'unimed_id', type: 'int' },
+		{ name: 'bs_inafecto', type: 'int' },
+		{ name: 'bs_codigo', type: 'string' },
+		{ name: 'unimed_nombre', type: 'string' },
+		{ name: 'unimed_abrev', type: 'string' },
+		
+		{ name: 'referencias', type: 'string' },
+		{ name: 'tablex', type: 'int' },
+		{ name: 'tablex_nombre', type: 'string' },
+		{ name: 'tablex_new', type: 'int' },
+	]
+});

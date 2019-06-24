@@ -1,0 +1,43 @@
+Ext.define('Siace.model.operations.Registro_Internacional', {
+	extend: 'Ext.data.Model',
+
+	idProperty: 'regint_id',
+
+	fields: [
+		{ name: 'regint_id', type: 'int' },
+		{ name: 'regint_key', type: 'string' },
+		{ name: 'regint_flga', type: 'string' },
+		{ name: 'alma_id', type: 'int' },
+		{ name: 'tipdocint_id', type: 'int' },
+		{ name: 'year_id', type: 'int' },
+		{ name: 'regint_nro', type: 'string' },
+		{ name: 'regint_fecha', type: 'date', dateFormat: 'Y-m-d' },
+		{ name: 'expor_id', type: 'int' },
+		{ name: 'pais_id', type: 'int' },
+		{ name: 'puert_id', type: 'int' },
+		{ name: 'mone_id', type: 'int' },
+		{ name: 'regint_monto_flete', type: 'float' },
+		{ name: 'regint_observ', type: 'string' },
+		{ name: 'regint_pdf', type: 'string' },
+		{ name: 'regint_estado', type: 'string' },
+		{ name: 'regint_documento', type: 'string' },
+
+		{ name: 'alma_key', type: 'string'  },
+		{ name: 'alma_nombre', type: 'string' },
+		{ name: 'alma_abrev', type: 'string' },
+		{ name: 'tipdocint_nombre', type: 'string' },
+		{ name: 'tipdocint_nombre02', type: 'string' },
+		{ name: 'tipdocint_abrev', type: 'string' },
+		{ name: 'pers_key', type: 'string' },
+		{ name: 'pers_ruc', type: 'string' },
+		{ name: 'pers_nombre', type: 'string' },
+		{ name: 'pers_abrev', type: 'string' },
+		{ name: 'pais_nombre', type: 'string' },
+		{ name: 'pais_abrev02', type: 'string' },
+		{ name: 'mone_nombre', type: 'string' },
+		{ name: 'mone_abrev', type: 'string' },
+		{ name: 'mone_tipo', type: 'string' },
+		{ name: 'regadua_rows' },
+		{ name: 'ingregadua_rows' },
+	]
+});

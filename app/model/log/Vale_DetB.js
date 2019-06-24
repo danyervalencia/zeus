@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Vale_DetB",{extend:"Ext.data.Model",fields:[{name:"valdet_key",type:"string"},{name:"valdet_item",type:"int"},{name:"valdet_cantid",type:"float"},{name:"valdet_preuni",type:"float"},{name:"valdet_pretot",type:"float"},{name:"bs_nombre",type:"string"},{name:"bs_codigo",type:"string"},{name:"unimed_nombre",type:"string"}]});

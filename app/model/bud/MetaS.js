@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.MetaS",{extend:"Ext.data.Model",fields:[{name:"meta_key",type:"string"},{name:"secfunc_code",type:"string"},{name:"secfunc_nombre",type:"string"},{name:"secfunc_codigo",type:"string"}]});

@@ -1,0 +1,1 @@
+Ext.define('Siace.view.comp.TxtArea',{extend:'Ext.form.field.TextArea',alias:'widget.comp_txtarea',disabledCls:'myDisabledClass',enforceMaxLength:true,fieldCls:'txt00001',labelClsExtra:'lbl00001',readOnlyCls:'myDisabledClass'});

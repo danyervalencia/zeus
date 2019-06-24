@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.DocumentosCbo",{extend:"Ext.data.Store",model:"Siace.model.pub.DocumentoCbo",proxy:{type:"general",url:"php/public_documentos_json_records.php"}});

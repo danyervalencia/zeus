@@ -1,0 +1,1 @@
+Ext.define("Siace.store.rrhh.TrabajadoresS",{extend:"Ext.data.Store",model:"Siace.model.rrhh.TrabajadorS",pageSize:500,proxy:{type:"general",url:"php/rrhh_trabajadores_json_records.php"}});

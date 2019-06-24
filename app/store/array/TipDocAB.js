@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.TipDocAB",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"tipdoc_id",type:"int"},{name:"tipdoc_nombre",type:"string"},{name:"tipdoc_abrev",type:"string"},{name:"tipdoc_code",type:"string"}],data:[["0","","",""],["1","Electrónico","E","E"]]});

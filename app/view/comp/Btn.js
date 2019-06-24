@@ -1,0 +1,1 @@
+Ext.define("Siace.view.comp.Btn",{extend:"Ext.button.Button",alias:"widget.comp_btn",height:"26",padding:"4 4 0 6"});

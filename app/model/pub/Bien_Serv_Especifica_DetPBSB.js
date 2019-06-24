@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.Bien_Serv_Especifica_DetPBSB",{extend:"Ext.data.Model",fields:[{name:"bsespedet_key",type:"string"},{name:"bsespedet_estado",type:"int"},{name:"espedet_id",type:"int"},{name:"espedet_nombre",type:"string"},{name:"espedet_siaf",type:"string"},{name:"espedet_codigo",type:"string"}]});

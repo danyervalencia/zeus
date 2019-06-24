@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.DistritoCbo',{extend:'Ext.data.Model',fields:[{name:'dstt_id',type:'int'},{name:'dstt_nombre',type:'string'}]});

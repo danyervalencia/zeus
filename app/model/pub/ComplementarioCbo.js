@@ -1,0 +1,1 @@
+Ext.define("Siace.model.pub.ComplementarioCbo",{extend:"Ext.data.Model",fields:[{name:"compl_key",type:"string"},{name:"compl_nombre",type:"string"}]});

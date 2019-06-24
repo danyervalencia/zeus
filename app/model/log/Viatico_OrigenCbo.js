@@ -1,0 +1,1 @@
+Ext.define("Siace.model.log.Viatico_OrigenCbo",{extend:"Ext.data.Model",fields:[{name:"orig_prvn",type:"int"},{name:"orig_nombre",type:"string"}]});

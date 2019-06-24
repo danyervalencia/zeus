@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Individuos_FonosPIB",{extend:"Ext.data.Store",model:"Siace.model.pub.Individuo_FonoPIB",pageSize:500,proxy:{type:"general",url:"php/public_individuos_fonos_json_records.php"}});

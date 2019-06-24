@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.TareaW",{extend:"Ext.data.Model",fields:[{name:"tarea_codename",type:"string"},{name:"tipespedet_nombre",type:"string"},{name:"year_id",type:"string"},{name:"secfunc_codename",type:"string"},{name:"unieje_codename",type:"string"},{name:"actproy_codename",type:"string"},{name:"comp_codename",type:"string"},{name:"fina_codename",type:"string"}]});

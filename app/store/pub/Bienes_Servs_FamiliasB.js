@@ -1,0 +1,1 @@
+Ext.define("Siace.store.pub.Bienes_Servs_FamiliasB",{extend:"Ext.data.Store",model:"Siace.model.pub.Bien_Serv_FamiliaB",pageSize:500,proxy:{type:"general",url:"php/public_bienes_servs_familias_json_records.php"}});

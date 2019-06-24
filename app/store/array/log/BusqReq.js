@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.log.BusqReq",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"br_id",type:"int"},{name:"br_nombre",type:"string"}],data:[["1","Código Barras"],["2","Documento"]]});

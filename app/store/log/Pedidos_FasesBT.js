@@ -1,0 +1,1 @@
+Ext.define("Siace.store.log.Pedidos_FasesBT",{extend:"Ext.data.Store",model:"Siace.model.log.Pedido_FaseBT",pageSize:500,proxy:{type:"general",url:"php/logistics_pedidos_fases_json_records.php"}});

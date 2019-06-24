@@ -1,0 +1,1 @@
+Ext.define("Siace.model.bud.Tarea_FftredMeta",{extend:"Ext.data.Model",fields:[{name:"meta_id",type:"int"},{name:"secfunc_code",type:"string"},{name:"secfunc_nombre",type:"string"},{name:"secfunc_codename",type:"string"}]});

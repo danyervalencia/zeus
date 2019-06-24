@@ -1,0 +1,1 @@
+Ext.define('Siace.model.pub.Bien_Serv_GrupoCbo',{extend:'Ext.data.Model',fields:[{name:'bsg_id',type:'int'},{name:'bsg_code',type:'string'},{name:'bsg_nombre',type:'string'},{name:'bsg_codename',type:'string'}]});
